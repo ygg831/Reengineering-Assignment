@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/reengineering-toolkit/CodeAnalysisToolkit.iml" filepath="$PROJECT_DIR$/reengineering-toolkit/CodeAnalysisToolkit.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/Reengineer_Assignment.iml" filepath="$PROJECT_DIR$/.idea/Reengineer_Assignment.iml" />
+      <module fileurl="file://$PROJECT_DIR$/commons-bcel/bcel.iml" filepath="$PROJECT_DIR$/commons-bcel/bcel.iml" />
+    </modules>
+  </component>
+</project>
