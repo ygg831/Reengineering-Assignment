@@ -1015,45 +1015,13 @@ public abstract class Utility {
                     int consumed_chars = bracketIndex + 1; // Shadows global var
 
                     // check for wildcards
-                    if (signature.charAt(consumed_chars) == '+') {
-                        type.append("? extends ");
-                        consumed_chars++;
-                    } else if (signature.charAt(consumed_chars) == '-') {
-                        type.append("? super ");
-                        consumed_chars++;
-                    }
-
-                    // get the first TypeArgument
-                    if (signature.charAt(consumed_chars) == '*') {
-                        type.append("?");
-                        consumed_chars++;
-                    } else {
-                        type.append(typeSignatureToString(signature.substring(consumed_chars), chopit));
-                        // update our consumed count by the number of characters the for type argument
-                        consumed_chars = unwrap(Utility.CONSUMER_CHARS) + consumed_chars;
-                        wrap(Utility.CONSUMER_CHARS, consumed_chars);
-                    }
+                    consumed_chars = getConsumed_chars(signature, chopit, type, consumed_chars);
 
                     // are there more TypeArguments?
                     while (signature.charAt(consumed_chars) != '>') {
                         type.append(", ");
                         // check for wildcards
-                        if (signature.charAt(consumed_chars) == '+') {
-                            type.append("? extends ");
-                            consumed_chars++;
-                        } else if (signature.charAt(consumed_chars) == '-') {
-                            type.append("? super ");
-                            consumed_chars++;
-                        }
-                        if (signature.charAt(consumed_chars) == '*') {
-                            type.append("?");
-                            consumed_chars++;
-                        } else {
-                            type.append(typeSignatureToString(signature.substring(consumed_chars), chopit));
-                            // update our consumed count by the number of characters the for type argument
-                            consumed_chars = unwrap(Utility.CONSUMER_CHARS) + consumed_chars;
-                            wrap(Utility.CONSUMER_CHARS, consumed_chars);
-                        }
+                        consumed_chars = getConsumed_chars(signature, chopit, type, consumed_chars);
                     }
 
                     // process the closing ">"
@@ -1110,6 +1078,26 @@ public abstract class Utility {
         } catch (final StringIndexOutOfBoundsException e) { // Should never occur
             throw new ClassFormatException("Invalid signature: " + signature, e);
         }
+    }
+
+    private static int getConsumed_chars(String signature, boolean chopit, StringBuilder type, int consumed_chars) {
+        if (signature.charAt(consumed_chars) == '+') {
+            type.append("? extends ");
+            consumed_chars++;
+        } else if (signature.charAt(consumed_chars) == '-') {
+            type.append("? super ");
+            consumed_chars++;
+        }
+        if (signature.charAt(consumed_chars) == '*') {
+            type.append("?");
+            consumed_chars++;
+        } else {
+            type.append(typeSignatureToString(signature.substring(consumed_chars), chopit));
+            // update our consumed count by the number of characters the for type argument
+            consumed_chars = unwrap(Utility.CONSUMER_CHARS) + consumed_chars;
+            wrap(Utility.CONSUMER_CHARS, consumed_chars);
+        }
+        return consumed_chars;
     }
 
 
