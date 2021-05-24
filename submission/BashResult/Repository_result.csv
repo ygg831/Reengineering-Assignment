@@ -1,0 +1,2429 @@
+行标签,计数项:Timestamp
+pom.xml,203
+src/changes/changes.xml,188
+src/main/java/org/apache/bcel/classfile/Utility.java,57
+src/main/java/org/apache/bcel/util/ClassPath.java,53
+src/main/java/org/apache/bcel/generic/MethodGen.java,50
+src/main/java/org/apache/bcel/verifier/statics/Pass2Verifier.java,42
+RELEASE-NOTES.txt,41
+src/main/java/org/apache/bcel/classfile/JavaClass.java,40
+src/main/java/org/apache/bcel/verifier/structurals/InstConstraintVisitor.java,35
+src/main/java/org/apache/bcel/verifier/structurals/Subroutines.java,35
+src/main/java/org/apache/bcel/verifier/statics/Pass3aVerifier.java,33
+src/main/java/org/apache/bcel/generic/Type.java,33
+(空白),32
+src/test/java/org/apache/bcel/generic/JdkGenericDumpTestCase.java,32
+src/main/java/org/apache/bcel/classfile/Attribute.java,32
+src/main/java/org/apache/bcel/classfile/ConstantUtf8.java,32
+src/main/java/org/apache/bcel/generic/InstructionList.java,29
+src/main/java/org/apache/bcel/generic/ClassGen.java,29
+src/main/java/org/apache/bcel/generic/InstructionFactory.java,28
+src/main/java/org/apache/bcel/classfile/AnnotationEntry.java,28
+src/main/java/org/apache/bcel/Constants.java,28
+src/main/java/org/apache/bcel/verifier/structurals/Pass3bVerifier.java,27
+.github/workflows/maven.yml,27
+src/main/java/org/apache/bcel/verifier/structurals/ControlFlowGraph.java,26
+src/main/java/org/apache/bcel/classfile/Constant.java,26
+src/main/java/org/apache/bcel/classfile/DescendingVisitor.java,26
+src/java/org/apache/bcel/classfile/JavaClass.java,26
+src/main/java/org/apache/commons/bcel6/generic/MethodGen.java,25
+src/main/java/org/apache/bcel/generic/FieldGen.java,25
+src/main/java/org/apache/bcel/util/InstructionFinder.java,25
+src/main/java/org/apache/bcel/classfile/ClassParser.java,25
+src/main/java/org/apache/bcel/classfile/Signature.java,24
+src/main/java/org/apache/bcel/classfile/StackMapEntry.java,24
+src/main/java/org/apache/bcel/classfile/ConstantPool.java,24
+src/main/java/org/apache/bcel/verifier/VerifierAppFrame.java,23
+src/main/java/org/apache/bcel/generic/InstructionHandle.java,23
+src/main/java/org/apache/commons/bcel6/classfile/JavaClass.java,23
+src/main/java/org/apache/bcel/classfile/Visitor.java,23
+src/main/java/org/apache/bcel/generic/Instruction.java,22
+src/main/java/org/apache/bcel/verifier/statics/StringRepresentation.java,22
+src/main/java/org/apache/bcel/classfile/Annotations.java,22
+src/main/java/org/apache/bcel/classfile/FieldOrMethod.java,22
+src/main/java/org/apache/bcel/generic/AnnotationEntryGen.java,22
+src/main/java/org/apache/commons/bcel6/Constants.java,21
+src/main/java/org/apache/commons/bcel6/classfile/Utility.java,21
+src/main/java/org/apache/commons/bcel6/classfile/Attribute.java,21
+src/main/java/org/apache/bcel/verifier/structurals/LocalVariables.java,21
+src/main/java/org/apache/bcel/generic/LocalVariableGen.java,21
+src/main/java/org/apache/bcel/verifier/structurals/ExceptionHandlers.java,21
+src/main/java/org/apache/bcel/util/BCELFactory.java,21
+src/main/java/org/apache/bcel/classfile/ParameterAnnotations.java,21
+src/main/java/org/apache/bcel/classfile/AnnotationDefault.java,21
+src/main/java/org/apache/bcel/classfile/ElementValue.java,21
+src/examples/Mini/ASTFunDecl.java,21
+src/site/xdoc/index.xml,20
+src/test/java/org/apache/bcel/PerformanceTest.java,20
+src/main/java/org/apache/bcel/verifier/VerifierFactoryListModel.java,20
+src/main/java/org/apache/bcel/util/Class2HTML.java,20
+src/main/java/org/apache/bcel/verifier/structurals/OperandStack.java,20
+src/main/java/org/apache/bcel/generic/InvokeInstruction.java,20
+src/main/java/org/apache/commons/bcel6/classfile/FieldOrMethod.java,20
+src/main/java/org/apache/bcel/util/SyntheticRepository.java,20
+src/main/java/org/apache/bcel/util/CodeHTML.java,20
+src/main/java/org/apache/bcel/classfile/Unknown.java,20
+src/main/java/org/apache/bcel/classfile/LocalVariableTable.java,20
+src/main/java/org/apache/bcel/classfile/Code.java,20
+src/main/java/org/apache/bcel/classfile/LineNumberTable.java,20
+src/main/java/org/apache/bcel/generic/Select.java,19
+src/main/java/org/apache/bcel/generic/ObjectType.java,19
+src/main/java/org/apache/bcel/verifier/statics/Pass1Verifier.java,19
+src/main/java/org/apache/bcel/classfile/LocalVariable.java,19
+src/main/java/org/apache/bcel/classfile/Method.java,19
+src/main/java/org/apache/bcel/generic/ConstantPoolGen.java,19
+xdocs/projects.xml,18
+src/main/java/org/apache/commons/bcel6/generic/Instruction.java,18
+src/main/java/org/apache/commons/bcel6/generic/FieldGen.java,18
+src/main/java/org/apache/bcel/generic/INVOKEDYNAMIC.java,18
+src/main/java/org/apache/bcel/generic/FieldOrMethod.java,18
+src/main/java/org/apache/bcel/verifier/structurals/ExecutionVisitor.java,18
+src/main/java/org/apache/bcel/generic/LDC.java,18
+src/main/java/org/apache/bcel/classfile/RuntimeInvisibleAnnotations.java,18
+src/main/java/org/apache/bcel/classfile/Field.java,18
+src/main/java/org/apache/bcel/classfile/ExceptionTable.java,18
+src/main/java/org/apache/bcel/classfile/RuntimeVisibleAnnotations.java,18
+src/main/java/org/apache/bcel/classfile/LocalVariableTypeTable.java,18
+src/java/org/apache/bcel/generic/Type.java,18
+project.xml,18
+src/test/java/org/apache/bcel/AbstractTestCase.java,17
+src/main/java/org/apache/commons/bcel6/verifier/structurals/InstConstraintVisitor.java,17
+src/main/java/org/apache/commons/bcel6/generic/InstructionFactory.java,17
+src/main/java/org/apache/commons/bcel6/generic/ClassGen.java,17
+src/main/java/org/apache/commons/bcel6/generic/ConstantPoolGen.java,17
+src/main/java/org/apache/bcel/verifier/Verifier.java,17
+src/main/java/org/apache/bcel/verifier/structurals/UninitializedObjectType.java,17
+src/main/java/org/apache/bcel/verifier/exc/AssertionViolatedException.java,17
+src/main/java/org/apache/bcel/generic/FieldGenOrMethodGen.java,17
+src/main/java/org/apache/bcel/classfile/ParameterAnnotationEntry.java,17
+src/main/java/org/apache/bcel/generic/ArrayElementValueGen.java,17
+src/main/java/org/apache/bcel/classfile/InnerClasses.java,17
+src/main/java/org/apache/bcel/classfile/ElementValuePair.java,17
+src/main/java/org/apache/bcel/classfile/CodeException.java,17
+src/main/java/org/apache/bcel/Const.java,17
+src/main/java/org/apache/bcel/classfile/LineNumber.java,17
+src/main/java/org/apache/bcel/classfile/PMGClass.java,17
+src/java/org/apache/bcel/classfile/Attribute.java,17
+src/java/org/apache/bcel/classfile/Utility.java,17
+src/examples/listclass.java,17
+src/examples/JasminVisitor.java,17
+.travis.yml,17
+src/main/java/org/apache/commons/bcel6/util/ClassPath.java,16
+src/main/java/org/apache/commons/bcel6/generic/Type.java,16
+src/main/java/org/apache/commons/bcel6/classfile/StackMapEntry.java,16
+src/main/java/org/apache/commons/bcel6/generic/BranchInstruction.java,16
+src/main/java/org/apache/commons/bcel6/generic/InstructionList.java,16
+src/main/java/org/apache/bcel/util/BCELifier.java,16
+src/main/java/org/apache/bcel/generic/INVOKEINTERFACE.java,16
+src/main/java/org/apache/bcel/util/ClassLoader.java,16
+src/main/java/org/apache/commons/bcel6/classfile/LineNumberTable.java,16
+src/main/java/org/apache/bcel/generic/INVOKESPECIAL.java,16
+src/main/java/org/apache/bcel/verifier/statics/DOUBLE_Upper.java,16
+src/main/java/org/apache/bcel/generic/INVOKESTATIC.java,16
+src/main/java/org/apache/bcel/verifier/structurals/InstructionContext.java,16
+src/main/java/org/apache/bcel/generic/LocalVariableInstruction.java,16
+src/main/java/org/apache/bcel/generic/INVOKEVIRTUAL.java,16
+src/main/java/org/apache/bcel/classfile/InnerClass.java,16
+src/main/java/org/apache/bcel/classfile/SourceFile.java,16
+src/main/java/org/apache/bcel/classfile/EmptyVisitor.java,16
+src/main/java/org/apache/bcel/classfile/ArrayElementValue.java,16
+src/main/java/org/apache/bcel/classfile/EnclosingMethod.java,16
+src/main/java/org/apache/bcel/classfile/ConstantValue.java,16
+src/main/java/org/apache/bcel/classfile/RuntimeInvisibleParameterAnnotations.java,16
+src/main/java/org/apache/bcel/classfile/StackMap.java,16
+src/java/org/apache/bcel/generic/MethodGen.java,16
+src/java/org/apache/bcel/Repository.java,16
+src/examples/Mini/ASTProgram.java,16
+src/examples/Mini/MiniC.java,16
+src/examples/ProxyCreator.java,16
+checkstyle.xml,16
+README.md,16
+src/test/java/org/apache/bcel/visitors/CounterVisitor.java,15
+xdocs/manual.xml,15
+src/main/java/org/apache/commons/bcel6/generic/FieldGenOrMethodGen.java,15
+src/main/java/org/apache/bcel/generic/GETSTATIC.java,15
+src/main/java/org/apache/commons/bcel6/classfile/Constant.java,15
+src/main/java/org/apache/bcel/generic/PUTSTATIC.java,15
+src/main/java/org/apache/bcel/generic/IINC.java,15
+src/main/java/org/apache/bcel/generic/GETFIELD.java,15
+src/main/java/org/apache/bcel/generic/LineNumberGen.java,15
+src/main/java/org/apache/bcel/verifier/statics/LONG_Upper.java,15
+src/main/java/org/apache/bcel/verifier/exc/VerifierConstraintViolatedException.java,15
+src/main/java/org/apache/bcel/util/ClassLoaderRepository.java,15
+src/main/java/org/apache/bcel/util/JavaWrapper.java,15
+src/main/java/org/apache/commons/bcel6/classfile/ConstantPool.java,15
+src/main/java/org/apache/bcel/verifier/statics/IntList.java,15
+src/main/java/org/apache/bcel/util/AttributeHTML.java,15
+src/main/java/org/apache/bcel/verifier/statics/LocalVariableInfo.java,15
+src/main/java/org/apache/bcel/generic/PUTFIELD.java,15
+src/main/java/org/apache/bcel/classfile/StackMapType.java,15
+src/main/java/org/apache/bcel/generic/BranchInstruction.java,15
+src/main/java/org/apache/bcel/classfile/SimpleElementValue.java,15
+src/main/java/org/apache/bcel/generic/ElementValueGen.java,15
+src/main/java/org/apache/bcel/classfile/StackMapTableEntry.java,15
+src/main/java/org/apache/bcel/classfile/RuntimeVisibleParameterAnnotations.java,15
+src/java/org/apache/bcel/verifier/statics/Pass2Verifier.java,15
+src/java/org/apache/bcel/verifier/statics/Pass3aVerifier.java,15
+src/java/org/apache/bcel/util/ClassPath.java,15
+src/site/site.xml,14
+src/main/java/org/apache/commons/bcel6/verifier/VerifierAppFrame.java,14
+src/test/java/org/apache/bcel/generic/MethodGenTestCase.java,14
+src/test/java/org/apache/bcel/ElementValueGenTestCase.java,14
+src/main/java/org/apache/commons/bcel6/generic/Select.java,14
+src/main/java/org/apache/commons/bcel6/util/CodeHTML.java,14
+src/main/java/org/apache/bcel/verifier/structurals/Frame.java,14
+src/main/java/org/apache/bcel/verifier/exc/ClassConstraintException.java,14
+src/main/java/org/apache/bcel/generic/LDC2_W.java,14
+src/main/java/org/apache/bcel/verifier/exc/VerificationException.java,14
+src/main/java/org/apache/bcel/util/MethodHTML.java,14
+src/main/java/org/apache/bcel/verifier/VerifyDialog.java,14
+src/main/java/org/apache/bcel/verifier/VerifierFactory.java,14
+src/main/java/org/apache/bcel/generic/SWITCH.java,14
+src/main/java/org/apache/bcel/generic/SimpleElementValueGen.java,14
+src/main/java/org/apache/bcel/generic/BranchHandle.java,14
+src/main/java/org/apache/bcel/classfile/ConstantClass.java,14
+src/main/java/org/apache/bcel/generic/CodeExceptionGen.java,14
+src/main/java/org/apache/bcel/classfile/Deprecated.java,14
+src/main/java/org/apache/bcel/generic/ArrayType.java,14
+src/main/java/org/apache/bcel/generic/ElementValuePairGen.java,14
+src/main/java/org/apache/bcel/classfile/Synthetic.java,14
+src/java/org/apache/bcel/classfile/ConstantPool.java,14
+src/java/org/apache/bcel/util/BCELFactory.java,14
+src/java/org/apache/bcel/generic/ConstantPoolGen.java,14
+src/java/org/apache/bcel/util/BCELifier.java,14
+src/java/org/apache/bcel/util/ClassLoader.java,14
+src/examples/Mini/ASTExpr.java,14
+src/examples/Mini/MiniParser.java,14
+src/examples/Package.java,14
+build.xml,14
+NOTICE.txt,14
+src/test/java/org/apache/commons/bcel6/verifier/tests/TestArrayAccess04Creator.java,13
+src/site/xdoc/download_bcel.xml,13
+src/main/java/org/apache/commons/bcel6/classfile/StackMapType.java,13
+src/main/java/org/apache/commons/bcel6/generic/LocalVariableInstruction.java,13
+src/main/java/org/apache/commons/bcel6/util/BCELifier.java,13
+src/main/java/org/apache/commons/bcel6/util/InstructionFinder.java,13
+src/main/java/org/apache/commons/bcel6/generic/FieldOrMethod.java,13
+src/main/java/org/apache/commons/bcel6/verifier/structurals/OperandStack.java,13
+src/main/java/org/apache/commons/bcel6/classfile/Signature.java,13
+src/main/java/org/apache/commons/bcel6/classfile/StackMap.java,13
+src/main/java/org/apache/commons/bcel6/classfile/AnnotationEntry.java,13
+src/main/java/org/apache/bcel/generic/FieldInstruction.java,13
+src/main/java/org/apache/commons/bcel6/classfile/LocalVariableTable.java,13
+src/main/java/org/apache/bcel/generic/PUSH.java,13
+src/main/java/org/apache/bcel/verifier/structurals/Subroutine.java,13
+src/main/java/org/apache/bcel/generic/ICONST.java,13
+src/main/java/org/apache/commons/bcel6/classfile/Field.java,13
+src/main/java/org/apache/bcel/generic/ReferenceType.java,13
+src/main/java/org/apache/bcel/verifier/statics/LocalVariablesInfo.java,13
+src/main/java/org/apache/bcel/generic/TABLESWITCH.java,13
+src/main/java/org/apache/bcel/verifier/structurals/ExceptionHandler.java,13
+src/main/java/org/apache/bcel/util/ConstantHTML.java,13
+src/main/java/org/apache/bcel/verifier/VerificationResult.java,13
+src/main/java/org/apache/bcel/verifier/exc/CodeConstraintException.java,13
+src/main/java/org/apache/commons/bcel6/classfile/ConstantCP.java,13
+src/main/java/org/apache/bcel/verifier/exc/LoadingException.java,13
+src/main/java/org/apache/commons/bcel6/classfile/LocalVariable.java,13
+src/main/java/org/apache/bcel/verifier/exc/LocalVariableInfoInconsistentException.java,13
+src/main/java/org/apache/bcel/verifier/exc/StructuralCodeConstraintException.java,13
+src/main/java/org/apache/bcel/classfile/ConstantString.java,13
+src/main/java/org/apache/bcel/classfile/EnumElementValue.java,13
+src/main/java/org/apache/bcel/classfile/AnnotationElementValue.java,13
+src/main/java/org/apache/bcel/classfile/BootstrapMethod.java,13
+src/main/java/org/apache/bcel/generic/EnumElementValueGen.java,13
+src/java/org/apache/bcel/verifier/structurals/InstConstraintVisitor.java,13
+src/java/org/apache/bcel/verifier/Verifier.java,13
+src/java/org/apache/bcel/util/SyntheticRepository.java,13
+src/java/org/apache/bcel/Constants.java,13
+src/java/org/apache/bcel/generic/LocalVariableGen.java,13
+src/java/org/apache/bcel/generic/InstructionList.java,13
+src/examples/Mini/MiniParserTokenManager.java,13
+src/examples/Mini/Environment.java,13
+src/examples/ClassDumper.java,13
+src/examples/HelloWorldBuilder.java,13
+doap_bcel.rdf,13
+src/test/java/org/apache/commons/bcel6/verifier/tests/TestArrayAccess03Creator.java,12
+src/test/java/org/apache/bcel/CounterVisitorTestCase.java,12
+src/main/java/org/apache/commons/bcel6/classfile/SourceFile.java,12
+src/main/java/org/apache/commons/bcel6/generic/CPInstruction.java,12
+src/main/java/org/apache/commons/bcel6/generic/INVOKEDYNAMIC.java,12
+src/main/java/org/apache/commons/bcel6/generic/LocalVariableGen.java,12
+src/main/java/org/apache/bcel/generic/JsrInstruction.java,12
+src/main/java/org/apache/bcel/verifier/exc/Utility.java,12
+src/main/java/org/apache/bcel/util/ClassSet.java,12
+src/main/java/org/apache/commons/bcel6/classfile/PMGClass.java,12
+src/main/java/org/apache/bcel/verifier/exc/InvalidMethodException.java,12
+src/main/java/org/apache/bcel/verifier/structurals/GenericArray.java,12
+src/main/java/org/apache/bcel/verifier/exc/StaticCodeInstructionOperandConstraintException.java,12
+src/main/java/org/apache/bcel/generic/GOTO.java,12
+src/main/java/org/apache/commons/bcel6/classfile/ConstantUtf8.java,12
+src/main/java/org/apache/bcel/verifier/exc/StaticCodeConstraintException.java,12
+src/main/java/org/apache/commons/bcel6/classfile/InnerClass.java,12
+src/main/java/org/apache/bcel/generic/LCONST.java,12
+src/main/java/org/apache/bcel/util/ClassVector.java,12
+src/main/java/org/apache/bcel/generic/JSR.java,12
+src/main/java/org/apache/bcel/verifier/exc/StaticCodeInstructionConstraintException.java,12
+src/main/java/org/apache/bcel/classfile/MethodParameter.java,12
+src/main/java/org/apache/bcel/classfile/ConstantNameAndType.java,12
+src/main/java/org/apache/bcel/classfile/ConstantLong.java,12
+src/main/java/org/apache/bcel/generic/AnnotationElementValueGen.java,12
+src/main/java/org/apache/bcel/classfile/ConstantCP.java,12
+src/main/java/org/apache/bcel/classfile/StackMapTable.java,12
+src/java/org/apache/bcel/verifier/structurals/Subroutines.java,12
+src/java/org/apache/bcel/verifier/structurals/ControlFlowGraph.java,12
+src/java/org/apache/bcel/classfile/LineNumberTable.java,12
+src/java/org/apache/bcel/classfile/ConstantValue.java,12
+src/examples/Mini/ASTLetExpr.java,12
+src/examples/Peephole.java,12
+src/examples/TransitiveHull.java,12
+src/examples/Mini/Function.java,12
+src/site/xdoc/manual.xml,11
+src/test/java/org/apache/commons/bcel6/verifier/tests/TestArrayAccess02Creator.java,11
+src/test/java/org/apache/commons/bcel6/verifier/tests/TestReturn01Creator.java,11
+src/test/java/org/apache/bcel/util/BCELifierTestCase.java,11
+src/test/java/org/apache/commons/bcel6/verifier/tests/TestReturn03Creator.java,11
+src/test/java/org/apache/bcel/InstructionFinderTestCase.java,11
+src/main/java/org/apache/commons/bcel6/verifier/structurals/Subroutines.java,11
+src/main/java/org/apache/commons/bcel6/verifier/statics/Pass2Verifier.java,11
+src/main/java/org/apache/commons/bcel6/verifier/structurals/Pass3bVerifier.java,11
+src/main/java/org/apache/commons/bcel6/generic/INVOKEINTERFACE.java,11
+src/main/java/org/apache/commons/bcel6/classfile/Unknown.java,11
+src/main/java/org/apache/commons/bcel6/util/Class2HTML.java,11
+src/main/java/org/apache/commons/bcel6/classfile/StackMapTableEntry.java,11
+src/main/java/org/apache/commons/bcel6/generic/LDC.java,11
+src/main/java/org/apache/commons/bcel6/generic/InstructionHandle.java,11
+src/main/java/org/apache/commons/bcel6/generic/PUSH.java,11
+src/main/java/org/apache/bcel/generic/NEW.java,11
+src/main/java/org/apache/commons/bcel6/classfile/ConstantLong.java,11
+src/main/java/org/apache/bcel/generic/NEWARRAY.java,11
+src/main/java/org/apache/bcel/generic/TargetLostException.java,11
+src/main/java/org/apache/bcel/generic/NameSignatureInstruction.java,11
+src/main/java/org/apache/bcel/util/ByteSequence.java,11
+src/main/java/org/apache/commons/bcel6/classfile/CodeException.java,11
+src/main/java/org/apache/bcel/generic/LLOAD.java,11
+src/main/java/org/apache/commons/bcel6/classfile/ConstantFloat.java,11
+src/main/java/org/apache/bcel/util/Repository.java,11
+src/main/java/org/apache/commons/bcel6/classfile/EnclosingMethod.java,11
+src/main/java/org/apache/bcel/generic/LOOKUPSWITCH.java,11
+src/main/java/org/apache/commons/bcel6/classfile/AnnotationDefault.java,11
+src/main/java/org/apache/bcel/verifier/PassVerifier.java,11
+src/main/java/org/apache/commons/bcel6/classfile/BootstrapMethod.java,11
+src/main/java/org/apache/bcel/generic/INSTANCEOF.java,11
+src/main/java/org/apache/commons/bcel6/classfile/ConstantClass.java,11
+src/main/java/org/apache/commons/bcel6/classfile/Method.java,11
+src/main/java/org/apache/commons/bcel6/classfile/ConstantDouble.java,11
+src/main/java/org/apache/commons/bcel6/classfile/ParameterAnnotations.java,11
+src/main/java/org/apache/commons/bcel6/classfile/ConstantInteger.java,11
+src/main/java/org/apache/bcel/generic/RET.java,11
+src/main/java/org/apache/commons/bcel6/classfile/ConstantString.java,11
+src/main/java/org/apache/bcel/generic/FCONST.java,11
+src/main/java/org/apache/commons/bcel6/classfile/LocalVariableTypeTable.java,11
+src/main/java/org/apache/bcel/generic/MULTIANEWARRAY.java,11
+src/main/java/org/apache/bcel/generic/InstructionComparator.java,11
+src/main/java/org/apache/bcel/generic/CPInstruction.java,11
+src/main/java/org/apache/bcel/generic/EmptyVisitor.java,11
+src/main/java/org/apache/bcel/generic/ClassGenException.java,11
+src/main/java/org/apache/bcel/generic/ARRAYLENGTH.java,11
+src/main/java/org/apache/bcel/classfile/ConstantInteger.java,11
+src/main/java/org/apache/bcel/generic/CHECKCAST.java,11
+src/main/java/org/apache/bcel/generic/ANEWARRAY.java,11
+src/main/java/org/apache/bcel/generic/DCONST.java,11
+src/main/java/org/apache/bcel/classfile/BootstrapMethods.java,11
+src/main/java/org/apache/bcel/generic/BIPUSH.java,11
+src/main/java/org/apache/bcel/classfile/ClassFormatException.java,11
+src/java/org/apache/bcel/verifier/statics/StringRepresentation.java,11
+src/java/org/apache/bcel/util/InstructionFinder.java,11
+src/java/org/apache/bcel/classfile/Signature.java,11
+src/java/org/apache/bcel/classfile/Method.java,11
+src/java/org/apache/bcel/classfile/Synthetic.java,11
+src/java/org/apache/bcel/classfile/ClassParser.java,11
+src/java/org/apache/bcel/generic/ClassGen.java,11
+src/java/org/apache/bcel/classfile/Unknown.java,11
+src/examples/Mini/SimpleNode.java,11
+src/examples/Mini/ASTFunAppl.java,11
+src/examples/helloify.java,11
+src/examples/Mini/ASTIfExpr.java,11
+src/examples/patchclass.java,11
+examples/JasminVisitor.java,11
+src/main/java/org/apache/commons/bcel6/verifier/VerifierFactoryListModel.java,10
+src/test/java/org/apache/bcel/AbstractCounterVisitorTestCase.java,10
+src/test/java/org/apache/bcel/GeneratingAnnotatedClassesTestCase.java,10
+src/test/java/org/apache/bcel/util/InstructionFinderTest.java,10
+src/main/java/org/apache/commons/bcel6/generic/MULTIANEWARRAY.java,10
+src/main/java/org/apache/commons/bcel6/generic/INVOKEVIRTUAL.java,10
+src/main/java/org/apache/commons/bcel6/verifier/structurals/ExecutionVisitor.java,10
+src/main/java/org/apache/commons/bcel6/generic/INVOKESPECIAL.java,10
+src/main/java/org/apache/commons/bcel6/generic/InstructionConstants.java,10
+src/main/java/org/apache/commons/bcel6/generic/GOTO.java,10
+src/main/java/org/apache/commons/bcel6/verifier/statics/Pass3aVerifier.java,10
+src/main/java/org/apache/commons/bcel6/generic/InvokeInstruction.java,10
+src/main/java/org/apache/commons/bcel6/verifier/structurals/LocalVariables.java,10
+src/main/java/org/apache/commons/bcel6/util/ClassLoader.java,10
+src/main/java/org/apache/commons/bcel6/generic/BranchHandle.java,10
+src/main/java/org/apache/commons/bcel6/generic/InstructionComparator.java,10
+src/main/java/org/apache/commons/bcel6/generic/INVOKESTATIC.java,10
+src/main/java/org/apache/commons/bcel6/classfile/ConstantMethodHandle.java,10
+src/main/java/org/apache/commons/bcel6/classfile/Code.java,10
+src/main/java/org/apache/commons/bcel6/classfile/LineNumber.java,10
+src/main/java/org/apache/bcel/generic/IF_ACMPNE.java,10
+src/main/java/org/apache/bcel/generic/IFGT.java,10
+src/main/java/org/apache/bcel/generic/FCMPG.java,10
+src/main/java/org/apache/commons/bcel6/classfile/Deprecated.java,10
+src/main/java/org/apache/bcel/generic/ILOAD.java,10
+src/main/java/org/apache/bcel/verifier/exc/LinkingConstraintException.java,10
+src/main/java/org/apache/bcel/generic/Visitor.java,10
+src/main/java/org/apache/bcel/util/ClassStack.java,10
+src/main/java/org/apache/bcel/Repository.java,10
+src/main/java/org/apache/bcel/generic/IFLT.java,10
+src/main/java/org/apache/bcel/generic/LSTORE.java,10
+src/main/java/org/apache/commons/bcel6/classfile/ConstantNameAndType.java,10
+src/main/java/org/apache/bcel/generic/IF_ICMPEQ.java,10
+src/main/java/org/apache/commons/bcel6/classfile/ExceptionTable.java,10
+src/main/java/org/apache/bcel/generic/FCMPL.java,10
+src/main/java/org/apache/bcel/generic/LDC_W.java,10
+src/main/java/org/apache/bcel/generic/IF_ICMPGE.java,10
+src/main/java/org/apache/bcel/util/ClassQueue.java,10
+src/main/java/org/apache/bcel/generic/IF_ICMPGT.java,10
+src/main/java/org/apache/bcel/generic/IF_ACMPEQ.java,10
+src/main/java/org/apache/bcel/generic/FSTORE.java,10
+src/main/java/org/apache/bcel/generic/IFGE.java,10
+src/main/java/org/apache/bcel/generic/SIPUSH.java,10
+src/main/java/org/apache/bcel/generic/IFLE.java,10
+src/main/java/org/apache/bcel/generic/GOTO_W.java,10
+src/main/java/org/apache/bcel/generic/ReturnaddressType.java,10
+src/main/java/org/apache/bcel/generic/MONITORENTER.java,10
+src/main/java/org/apache/commons/bcel6/classfile/ConstantMethodType.java,10
+src/main/java/org/apache/bcel/generic/ISTORE.java,10
+src/main/java/org/apache/bcel/generic/IFNE.java,10
+src/main/java/org/apache/bcel/generic/MONITOREXIT.java,10
+src/main/java/org/apache/bcel/generic/IFNONNULL.java,10
+src/main/java/org/apache/bcel/generic/IF_ICMPLE.java,10
+src/main/java/org/apache/commons/bcel6/classfile/InnerClasses.java,10
+src/main/java/org/apache/bcel/generic/JSR_W.java,10
+src/main/java/org/apache/bcel/generic/LCMP.java,10
+src/main/java/org/apache/bcel/generic/IF_ICMPLT.java,10
+src/main/java/org/apache/bcel/generic/IFNULL.java,10
+src/main/java/org/apache/bcel/generic/IF_ICMPNE.java,10
+src/main/java/org/apache/bcel/generic/IFEQ.java,10
+src/main/java/org/apache/bcel/generic/FLOAD.java,10
+src/main/java/org/apache/bcel/classfile/ConstantDouble.java,10
+src/main/java/org/apache/bcel/generic/ClassElementValueGen.java,10
+src/main/java/org/apache/bcel/generic/DSTORE.java,10
+src/main/java/org/apache/bcel/generic/ATHROW.java,10
+src/main/java/org/apache/bcel/generic/DCMPL.java,10
+src/main/java/org/apache/bcel/generic/BasicType.java,10
+src/main/java/org/apache/bcel/generic/DLOAD.java,10
+src/main/java/org/apache/bcel/ExceptionConstants.java,10
+src/main/java/org/apache/bcel/classfile/ConstantFloat.java,10
+src/main/java/org/apache/bcel/generic/ArrayInstruction.java,10
+src/main/java/org/apache/bcel/generic/ASTORE.java,10
+src/main/java/org/apache/bcel/generic/DCMPG.java,10
+src/main/java/org/apache/bcel/generic/ALOAD.java,10
+src/main/java/org/apache/bcel/classfile/ClassElementValue.java,10
+src/java/org/apache/bcel/verifier/structurals/OperandStack.java,10
+src/java/org/apache/bcel/classfile/PMGClass.java,10
+src/java/org/apache/bcel/generic/ReferenceType.java,10
+src/java/org/apache/bcel/classfile/Deprecated.java,10
+src/java/org/apache/bcel/classfile/Visitor.java,10
+src/java/org/apache/bcel/generic/Select.java,10
+src/java/org/apache/bcel/generic/InstructionFactory.java,10
+src/java/org/apache/bcel/classfile/InnerClasses.java,10
+src/java/org/apache/bcel/classfile/Code.java,10
+src/examples/Mini/ASCII_CharStream.java,10
+src/examples/Mini/ParseException.java,10
+src/examples/Mini/ASTIdent.java,10
+src/examples/Mini/Variable.java,10
+src/examples/maxstack.java,10
+src/test/java/org/apache/bcel/classfile/JDKClassDumpTestCase.java,9
+xdocs/faq.xml,9
+src/test/java/org/apache/commons/bcel6/visitors/CounterVisitor.java,9
+src/test/java/org/apache/bcel/verifier/AbstractVerifierTestCase.java,9
+src/test/java/org/apache/bcel/EnclosingMethodAttributeTestCase.java,9
+src/test/java/org/apache/bcel/util/Class2HTMLTestCase.java,9
+src/main/java/org/apache/commons/bcel6/generic/ReferenceType.java,9
+src/main/java/org/apache/commons/bcel6/verifier/structurals/ControlFlowGraph.java,9
+src/main/java/org/apache/commons/bcel6/util/AttributeHTML.java,9
+src/main/java/org/apache/commons/bcel6/classfile/Synthetic.java,9
+src/main/java/org/apache/commons/bcel6/generic/ObjectType.java,9
+src/main/java/org/apache/commons/bcel6/generic/ArrayInstruction.java,9
+src/main/java/org/apache/commons/bcel6/classfile/SimpleElementValue.java,9
+src/main/java/org/apache/commons/bcel6/generic/JSR.java,9
+src/main/java/org/apache/commons/bcel6/util/BCELFactory.java,9
+src/main/java/org/apache/commons/bcel6/generic/BasicType.java,9
+src/main/java/org/apache/commons/bcel6/generic/CodeExceptionGen.java,9
+src/main/java/org/apache/commons/bcel6/generic/NEWARRAY.java,9
+src/main/java/org/apache/commons/bcel6/generic/LineNumberGen.java,9
+src/main/java/org/apache/bcel/generic/LALOAD.java,9
+src/main/java/org/apache/bcel/generic/LMUL.java,9
+src/main/java/org/apache/bcel/generic/LAND.java,9
+src/main/java/org/apache/bcel/generic/IRETURN.java,9
+src/main/java/org/apache/bcel/generic/LSUB.java,9
+src/main/java/org/apache/bcel/generic/IADD.java,9
+src/main/java/org/apache/bcel/generic/FRETURN.java,9
+src/main/java/org/apache/bcel/generic/I2C.java,9
+src/main/java/org/apache/bcel/generic/FASTORE.java,9
+src/main/java/org/apache/bcel/generic/ISUB.java,9
+src/main/java/org/apache/bcel/generic/IREM.java,9
+src/main/java/org/apache/bcel/verifier/TransitiveHull.java,9
+src/main/java/org/apache/bcel/generic/StoreInstruction.java,9
+src/main/java/org/apache/bcel/generic/LOR.java,9
+src/main/java/org/apache/bcel/generic/IAND.java,9
+src/main/java/org/apache/bcel/generic/IUSHR.java,9
+src/main/java/org/apache/bcel/generic/LoadInstruction.java,9
+src/main/java/org/apache/bcel/generic/IXOR.java,9
+src/main/java/org/apache/bcel/generic/I2F.java,9
+src/main/java/org/apache/bcel/generic/LREM.java,9
+src/main/java/org/apache/bcel/generic/IALOAD.java,9
+src/main/java/org/apache/bcel/generic/LRETURN.java,9
+src/main/java/org/apache/commons/bcel6/classfile/MethodParameter.java,9
+src/main/java/org/apache/bcel/verifier/VerifierFactoryObserver.java,9
+src/main/java/org/apache/bcel/generic/LDIV.java,9
+src/main/java/org/apache/bcel/generic/LSHL.java,9
+src/main/java/org/apache/bcel/generic/RETURN.java,9
+src/main/java/org/apache/commons/bcel6/classfile/AccessFlags.java,9
+src/main/java/org/apache/bcel/generic/FALOAD.java,9
+src/main/java/org/apache/bcel/generic/LSHR.java,9
+src/main/java/org/apache/bcel/generic/ReturnInstruction.java,9
+src/main/java/org/apache/bcel/generic/LNEG.java,9
+src/main/java/org/apache/commons/bcel6/classfile/ConstantValue.java,9
+src/main/java/org/apache/commons/bcel6/classfile/Annotations.java,9
+src/main/java/org/apache/bcel/generic/LUSHR.java,9
+src/main/java/org/apache/bcel/generic/L2D.java,9
+src/main/java/org/apache/bcel/generic/GotoInstruction.java,9
+src/main/java/org/apache/bcel/generic/SALOAD.java,9
+src/main/java/org/apache/bcel/generic/IASTORE.java,9
+src/main/java/org/apache/bcel/verifier/GraphicalVerifier.java,9
+src/main/java/org/apache/bcel/generic/LASTORE.java,9
+src/main/java/org/apache/bcel/verifier/NativeVerifier.java,9
+src/main/java/org/apache/bcel/generic/LXOR.java,9
+src/main/java/org/apache/bcel/generic/LADD.java,9
+src/main/java/org/apache/bcel/generic/I2B.java,9
+src/main/java/org/apache/bcel/generic/IDIV.java,9
+src/main/java/org/apache/bcel/generic/IOR.java,9
+src/main/java/org/apache/bcel/generic/IMUL.java,9
+src/main/java/org/apache/commons/bcel6/classfile/MethodParameters.java,9
+src/main/java/org/apache/bcel/generic/INEG.java,9
+src/main/java/org/apache/bcel/util/MemorySensitiveClassPathRepository.java,9
+src/main/java/org/apache/bcel/generic/FNEG.java,9
+src/main/java/org/apache/bcel/generic/SWAP.java,9
+src/main/java/org/apache/bcel/generic/DUP2.java,9
+src/main/java/org/apache/bcel/generic/DMUL.java,9
+src/main/java/org/apache/bcel/generic/DADD.java,9
+src/main/java/org/apache/bcel/classfile/AccessFlags.java,9
+src/main/java/org/apache/bcel/generic/DSUB.java,9
+src/main/java/org/apache/bcel/classfile/AttributeReader.java,9
+src/main/java/org/apache/bcel/generic/F2D.java,9
+src/main/java/org/apache/bcel/classfile/ConstantFieldref.java,9
+src/main/java/org/apache/bcel/generic/DASTORE.java,9
+src/main/java/org/apache/bcel/classfile/ConstantInterfaceMethodref.java,9
+src/main/java/org/apache/bcel/generic/DREM.java,9
+src/main/java/org/apache/bcel/classfile/ConstantMethodref.java,9
+src/main/java/org/apache/bcel/generic/DUP_X1.java,9
+src/main/java/org/apache/bcel/classfile/MethodParameters.java,9
+src/main/java/org/apache/bcel/generic/DUP2_X2.java,9
+src/main/java/org/apache/bcel/generic/AALOAD.java,9
+src/main/java/org/apache/bcel/generic/D2L.java,9
+src/main/java/org/apache/bcel/generic/AASTORE.java,9
+src/main/java/org/apache/bcel/generic/DALOAD.java,9
+src/main/java/org/apache/bcel/generic/ACONST_NULL.java,9
+src/main/java/org/apache/bcel/generic/DDIV.java,9
+src/main/java/org/apache/bcel/generic/ARETURN.java,9
+src/main/java/org/apache/bcel/generic/DNEG.java,9
+src/main/java/org/apache/bcel/generic/BALOAD.java,9
+src/main/java/org/apache/bcel/generic/DRETURN.java,9
+src/main/java/org/apache/bcel/generic/BASTORE.java,9
+src/main/java/org/apache/bcel/generic/DUP.java,9
+src/main/java/org/apache/bcel/generic/FADD.java,9
+src/main/java/org/apache/bcel/generic/DUP_X2.java,9
+src/main/java/org/apache/bcel/generic/CALOAD.java,9
+src/main/java/org/apache/bcel/generic/DUP2_X1.java,9
+src/main/java/org/apache/bcel/generic/CASTORE.java,9
+src/main/java/org/apache/bcel/generic/ExceptionThrower.java,9
+src/main/java/org/apache/bcel/generic/F2L.java,9
+src/main/java/org/apache/bcel/generic/F2I.java,9
+src/main/java/org/apache/bcel/generic/D2I.java,9
+src/main/java/org/apache/bcel/generic/D2F.java,9
+src/java/org/apache/bcel/verifier/structurals/Pass3bVerifier.java,9
+src/java/org/apache/bcel/verifier/structurals/LocalVariables.java,9
+src/java/org/apache/bcel/classfile/LocalVariableTable.java,9
+src/java/org/apache/bcel/classfile/FieldOrMethod.java,9
+src/java/org/apache/bcel/classfile/SourceFile.java,9
+src/java/org/apache/bcel/generic/Instruction.java,9
+src/java/org/apache/bcel/classfile/InnerClass.java,9
+src/java/org/apache/bcel/classfile/ExceptionTable.java,9
+src/java/org/apache/bcel/util/ClassLoaderRepository.java,9
+src/java/org/apache/bcel/classfile/EmptyVisitor.java,9
+src/java/org/apache/bcel/util/ClassQueue.java,9
+src/java/org/apache/bcel/classfile/Field.java,9
+src/java/org/apache/bcel/generic/FieldGenOrMethodGen.java,9
+src/examples/Mini/ASTInteger.java,9
+src/examples/id.java,9
+src/examples/Mini/TokenMgrError.java,9
+src/test/java/org/apache/bcel/EnumAccessFlagTestCase.java,8
+src/test/java/org/apache/bcel/AnnotationGenTestCase.java,8
+src/test/java/org/apache/commons/bcel6/generic/GeneratingAnnotatedClassesTestCase.java,8
+src/test/java/org/apache/bcel/generic/GeneratingAnnotatedClassesTestCase.java,8
+src/test/java/org/apache/bcel/data/MarkerAnnotation.java,8
+xdocs/stylesheets/project.xml,8
+src/test/java/org/apache/bcel/data/SimpleAnnotation.java,8
+src/test/java/org/apache/bcel/data/MarkedType.java,8
+src/test/java/org/apache/bcel/AnnotationDefaultAttributeTestCase.java,8
+src/test/java/org/apache/bcel/NanoTimer.java,8
+src/test/java/org/apache/bcel/AnonymousClassTestCase.java,8
+src/test/java/org/apache/bcel/PLSETestCase.java,8
+src/test/java/org/apache/bcel/data/MarkerAnnotationInvisible.java,8
+src/main/java/org/apache/commons/bcel6/generic/INSTANCEOF.java,8
+src/main/java/org/apache/commons/bcel6/generic/CHECKCAST.java,8
+src/main/java/org/apache/commons/bcel6/generic/PUTSTATIC.java,8
+src/main/java/org/apache/commons/bcel6/generic/AnnotationEntryGen.java,8
+src/main/java/org/apache/commons/bcel6/classfile/StackMapTable.java,8
+src/main/java/org/apache/commons/bcel6/generic/ARRAYLENGTH.java,8
+src/main/java/org/apache/commons/bcel6/generic/PUTFIELD.java,8
+src/main/java/org/apache/commons/bcel6/ExceptionConstants.java,8
+src/main/java/org/apache/commons/bcel6/generic/ReturnInstruction.java,8
+src/main/java/org/apache/commons/bcel6/generic/FieldInstruction.java,8
+src/main/java/org/apache/commons/bcel6/util/ConstantHTML.java,8
+src/main/java/org/apache/commons/bcel6/generic/NEW.java,8
+src/main/java/org/apache/commons/bcel6/util/SyntheticRepository.java,8
+src/main/java/org/apache/commons/bcel6/generic/ANEWARRAY.java,8
+src/main/java/org/apache/commons/bcel6/generic/GETSTATIC.java,8
+src/main/java/org/apache/commons/bcel6/generic/GETFIELD.java,8
+src/main/java/org/apache/bcel/generic/POP.java,8
+src/main/java/org/apache/commons/bcel6/classfile/ParameterAnnotationEntry.java,8
+src/main/java/org/apache/bcel/generic/I2S.java,8
+src/main/java/org/apache/bcel/generic/SASTORE.java,8
+src/main/java/org/apache/bcel/generic/LoadClass.java,8
+src/main/java/org/apache/bcel/generic/IfInstruction.java,8
+src/main/java/org/apache/bcel/generic/I2L.java,8
+src/main/java/org/apache/bcel/generic/FSUB.java,8
+src/main/java/org/apache/bcel/generic/L2I.java,8
+src/main/java/org/apache/bcel/generic/StackInstruction.java,8
+src/main/java/org/apache/bcel/generic/FMUL.java,8
+src/main/java/org/apache/bcel/generic/FDIV.java,8
+src/main/java/org/apache/commons/bcel6/classfile/DescendingVisitor.java,8
+src/main/java/org/apache/bcel/generic/FREM.java,8
+src/main/java/org/apache/bcel/generic/POP2.java,8
+src/main/java/org/apache/bcel/generic/ISHL.java,8
+src/main/java/org/apache/bcel/generic/InstructionTargeter.java,8
+src/main/java/org/apache/bcel/generic/ISHR.java,8
+src/main/java/org/apache/bcel/generic/L2F.java,8
+src/main/java/org/apache/commons/bcel6/classfile/ConstantInvokeDynamic.java,8
+src/main/java/org/apache/bcel/generic/IMPDEP1.java,8
+src/main/java/org/apache/bcel/generic/I2D.java,8
+src/main/java/org/apache/bcel/generic/IMPDEP2.java,8
+src/main/java/org/apache/bcel/util/BCELComparator.java,8
+src/main/java/org/apache/commons/bcel6/classfile/RuntimeInvisibleAnnotations.java,8
+src/main/java/org/apache/bcel/generic/NOP.java,8
+src/main/java/org/apache/bcel/generic/InstructionConstants.java,8
+src/main/java/org/apache/bcel/generic/ArithmeticInstruction.java,8
+src/main/java/org/apache/bcel/generic/ConversionInstruction.java,8
+src/main/java/org/apache/bcel/classfile/ConstantInvokeDynamic.java,8
+src/main/java/org/apache/bcel/ExceptionConst.java,8
+src/main/java/org/apache/bcel/generic/BREAKPOINT.java,8
+src/java/org/apache/bcel/verifier/VerifierAppFrame.java,8
+src/java/org/apache/bcel/verifier/VerifierFactory.java,8
+src/java/org/apache/bcel/classfile/StackMap.java,8
+src/java/org/apache/bcel/generic/ReturnaddressType.java,8
+src/java/org/apache/bcel/util/Repository.java,8
+src/java/org/apache/bcel/generic/FieldGen.java,8
+src/java/org/apache/bcel/util/ClassVector.java,8
+src/java/org/apache/bcel/classfile/CodeException.java,8
+src/java/org/apache/bcel/classfile/ConstantUtf8.java,8
+src/java/org/apache/bcel/classfile/ConstantClass.java,8
+src/java/org/apache/bcel/classfile/LocalVariable.java,8
+src/java/org/apache/bcel/classfile/AccessFlags.java,8
+src/examples/Mini/ASTTerm.java,8
+src/examples/Mini/ASTFactor.java,8
+src/test/java/org/apache/bcel/classfile/ConstantPoolTestCase.java,7
+src/test/java/org/apache/bcel/FieldAnnotationsTestCase.java,7
+src/test/java/org/apache/bcel/data/CombinedAnnotation.java,7
+src/test/java/org/apache/bcel/classfile/UtilityTestCase.java,7
+xdocs/navigation.xml,7
+src/test/java/org/apache/commons/bcel6/AbstractTestCase.java,7
+src/site/xdoc/faq.xml,7
+src/test/java/org/apache/bcel/LocalVariableTypeTableTestCase.java,7
+src/test/java/org/apache/bcel/AnnotationAccessFlagTestCase.java,7
+xdocs/index.xml,7
+src/test/java/org/apache/bcel/verifier/VerifierArrayAccessTestCase.java,7
+src/main/java/org/apache/commons/bcel6/verifier/VerifyDialog.java,7
+src/test/java/org/apache/bcel/verifier/VerifierReturnTestCase.java,7
+src/test/java/org/apache/bcel/verifier/VerifierTestCase.java,7
+src/test/java/org/apache/bcel/generic/AnnotationGenTestCase.java,7
+src/main/java/org/apache/commons/bcel6/generic/IINC.java,7
+src/main/java/org/apache/commons/bcel6/verifier/statics/Pass1Verifier.java,7
+src/main/java/org/apache/commons/bcel6/generic/LDIV.java,7
+src/main/java/org/apache/commons/bcel6/generic/MONITORENTER.java,7
+src/main/java/org/apache/commons/bcel6/generic/LREM.java,7
+src/main/java/org/apache/commons/bcel6/generic/MONITOREXIT.java,7
+src/main/java/org/apache/commons/bcel6/util/ClassQueue.java,7
+src/main/java/org/apache/commons/bcel6/generic/BIPUSH.java,7
+src/main/java/org/apache/commons/bcel6/Const.java,7
+src/main/java/org/apache/commons/bcel6/generic/ElementValueGen.java,7
+src/main/java/org/apache/commons/bcel6/generic/ArithmeticInstruction.java,7
+src/main/java/org/apache/commons/bcel6/generic/ATHROW.java,7
+src/main/java/org/apache/commons/bcel6/generic/IDIV.java,7
+src/main/java/org/apache/commons/bcel6/generic/IREM.java,7
+src/main/java/org/apache/commons/bcel6/generic/LCONST.java,7
+src/main/java/org/apache/commons/bcel6/generic/FCONST.java,7
+src/main/java/org/apache/commons/bcel6/generic/LDC2_W.java,7
+src/main/java/org/apache/commons/bcel6/generic/JSR_W.java,7
+src/main/java/org/apache/commons/bcel6/util/MethodHTML.java,7
+src/main/java/org/apache/commons/bcel6/generic/GOTO_W.java,7
+src/main/java/org/apache/commons/bcel6/verifier/GraphicalVerifier.java,7
+src/main/java/org/apache/commons/bcel6/generic/RET.java,7
+src/main/java/org/apache/commons/bcel6/verifier/statics/StringRepresentation.java,7
+src/main/java/org/apache/commons/bcel6/generic/ConversionInstruction.java,7
+src/main/java/org/apache/commons/bcel6/generic/DCONST.java,7
+src/main/java/org/apache/commons/bcel6/generic/ICONST.java,7
+src/main/java/org/apache/commons/bcel6/generic/SIPUSH.java,7
+src/main/java/org/apache/commons/bcel6/generic/ArrayType.java,7
+src/main/java/org/apache/bcel/util/ClassPathRepository.java,7
+src/main/java/org/apache/bcel/generic/IndexedInstruction.java,7
+src/main/java/org/apache/bcel/generic/InstructionListObserver.java,7
+src/main/java/org/apache/bcel/generic/MethodObserver.java,7
+src/main/java/org/apache/commons/bcel6/classfile/RuntimeVisibleAnnotations.java,7
+src/main/java/org/apache/bcel/generic/FieldObserver.java,7
+src/main/java/org/apache/bcel/generic/StackConsumer.java,7
+src/main/java/org/apache/commons/bcel6/classfile/BootstrapMethods.java,7
+src/main/java/org/apache/bcel/generic/NamedAndTyped.java,7
+src/main/java/org/apache/commons/bcel6/classfile/ElementValue.java,7
+src/main/java/org/apache/bcel/generic/StackProducer.java,7
+src/main/java/org/apache/bcel/generic/TypedInstruction.java,7
+src/main/java/org/apache/bcel/classfile/Module.java,7
+src/main/java/org/apache/bcel/classfile/ConstantObject.java,7
+src/main/java/org/apache/bcel/generic/ConstantPushInstruction.java,7
+src/main/java/org/apache/bcel/classfile/ConstantMethodType.java,7
+src/main/java/org/apache/bcel/classfile/ConstantMethodHandle.java,7
+src/main/java/org/apache/bcel/generic/ClassObserver.java,7
+src/main/java/org/apache/bcel/generic/CompoundInstruction.java,7
+src/main/java/org/apache/bcel/classfile/Node.java,7
+src/java/org/apache/bcel/verifier/statics/Pass1Verifier.java,7
+src/java/org/apache/bcel/verifier/VerifyDialog.java,7
+src/java/org/apache/bcel/classfile/ConstantNameAndType.java,7
+src/java/org/apache/bcel/generic/InstructionHandle.java,7
+src/java/org/apache/bcel/classfile/ConstantInteger.java,7
+src/java/org/apache/bcel/classfile/DescendingVisitor.java,7
+src/java/org/apache/bcel/generic/LDC_W.java,7
+src/java/org/apache/bcel/classfile/Constant.java,7
+src/java/org/apache/bcel/classfile/ConstantString.java,7
+src/java/org/apache/bcel/generic/BranchInstruction.java,7
+src/java/org/apache/bcel/classfile/LineNumber.java,7
+src/java/org/apache/bcel/classfile/ConstantDouble.java,7
+src/java/org/apache/bcel/util/CodeHTML.java,7
+src/java/org/apache/bcel/classfile/ConstantFloat.java,7
+src/java/org/apache/bcel/classfile/ConstantLong.java,7
+src/java/org/apache/bcel/generic/FieldOrMethod.java,7
+src/java/org/apache/bcel/generic/TABLESWITCH.java,7
+src/java/org/apache/bcel/generic/IINC.java,7
+src/java/org/apache/bcel/util/ClassSet.java,7
+src/java/org/apache/bcel/classfile/Annotations.java,7
+src/java/org/apache/bcel/classfile/StackMapType.java,7
+src/examples/Mini/JJTMiniParserState.java,7
+src/changes/release-notes.vm,7
+examples/listclass.java,7
+README.txt,7
+src/test/java/org/apache/bcel/verifier/tests/TestCreator.java,6
+xdocs/contributors.xml,6
+src/test/java/org/apache/bcel/verifier/VerifierInvokeTestCase.java,6
+src/test/java/org/apache/bcel/data/AnnotationEnumElement.java,6
+src/test/java/org/apache/bcel/verifier/tests/TestArrayAccess02Creator.java,6
+src/test/java/org/apache/bcel/data/AnonymousClassTest.java,6
+src/test/java/org/apache/bcel/verifier/tests/TestReturn03Creator.java,6
+src/test/java/org/apache/bcel/data/AttributeTestClassEM01.java,6
+src/test/java/org/apache/commons/bcel6/verifier/AbstractVerifierTestCase.java,6
+src/test/java/org/apache/bcel/data/AttributeTestClassEM02.java,6
+src/test/java/org/apache/bcel/verifier/tests/TestArrayAccess01.java,6
+src/test/java/org/apache/bcel/data/ComplexAnnotation.java,6
+src/test/java/org/apache/bcel/verifier/tests/TestArrayAccess04Creator.java,6
+src/main/java/org/apache/commons/bcel6/verifier/structurals/UninitializedObjectType.java,6
+src/test/java/org/apache/bcel/verifier/tests/TestReturn01Creator.java,6
+src/test/java/org/apache/bcel/data/SimpleClass.java,6
+src/site/xdoc/news.xml,6
+src/test/java/org/apache/bcel/data/SimpleEnum.java,6
+src/test/java/org/apache/commons/bcel6/generic/AnnotationGenTestCase.java,6
+src/main/java/org/apache/commons/bcel6/verifier/Verifier.java,6
+TODO.JustIce,6
+src/site/xdoc/mail-lists.xml,6
+src/main/java/org/apache/commons/bcel6/verifier/VerifierFactory.java,6
+src/test/java/org/apache/bcel/verifier/tests/TestArrayAccess03Creator.java,6
+src/main/java/org/apache/commons/bcel6/util/ClassVector.java,6
+src/main/java/org/apache/commons/bcel6/generic/NameSignatureInstruction.java,6
+src/main/java/org/apache/commons/bcel6/generic/JsrInstruction.java,6
+src/main/java/org/apache/commons/bcel6/generic/DCMPG.java,6
+src/main/java/org/apache/commons/bcel6/generic/SimpleElementValueGen.java,6
+src/main/java/org/apache/commons/bcel6/generic/DCMPL.java,6
+src/main/java/org/apache/commons/bcel6/generic/IFNONNULL.java,6
+src/main/java/org/apache/commons/bcel6/generic/IF_ACMPEQ.java,6
+src/main/java/org/apache/commons/bcel6/generic/LDC_W.java,6
+src/main/java/org/apache/commons/bcel6/generic/IF_ACMPNE.java,6
+src/main/java/org/apache/commons/bcel6/generic/FCMPL.java,6
+src/main/java/org/apache/commons/bcel6/generic/IF_ICMPEQ.java,6
+src/main/java/org/apache/commons/bcel6/util/ClassLoaderRepository.java,6
+src/main/java/org/apache/commons/bcel6/generic/IF_ICMPGE.java,6
+src/main/java/org/apache/commons/bcel6/generic/IFNE.java,6
+src/main/java/org/apache/commons/bcel6/generic/IF_ICMPGT.java,6
+src/main/java/org/apache/commons/bcel6/generic/IFNULL.java,6
+src/main/java/org/apache/commons/bcel6/generic/IF_ICMPLE.java,6
+src/main/java/org/apache/commons/bcel6/generic/LCMP.java,6
+src/main/java/org/apache/commons/bcel6/generic/IF_ICMPLT.java,6
+src/main/java/org/apache/commons/bcel6/generic/LOOKUPSWITCH.java,6
+src/main/java/org/apache/commons/bcel6/generic/IF_ICMPNE.java,6
+src/main/java/org/apache/commons/bcel6/generic/FCMPG.java,6
+src/main/java/org/apache/commons/bcel6/generic/IFEQ.java,6
+src/main/java/org/apache/commons/bcel6/generic/ACONST_NULL.java,6
+src/main/java/org/apache/commons/bcel6/generic/IFGE.java,6
+src/main/java/org/apache/commons/bcel6/generic/TABLESWITCH.java,6
+src/main/java/org/apache/commons/bcel6/generic/IFGT.java,6
+src/main/java/org/apache/commons/bcel6/util/ClassSet.java,6
+src/main/java/org/apache/commons/bcel6/generic/IFLE.java,6
+src/main/java/org/apache/commons/bcel6/verifier/statics/LocalVariableInfo.java,6
+src/main/java/org/apache/commons/bcel6/generic/IFLT.java,6
+src/main/java/org/apache/commons/bcel6/verifier/structurals/Frame.java,6
+src/main/java/org/apache/commons/bcel6/classfile/ClassParser.java,6
+src/main/java/org/apache/bcel/package.html,6
+src/main/java/org/apache/commons/bcel6/classfile/EmptyVisitor.java,6
+src/main/java/org/apache/bcel/generic/PopInstruction.java,6
+src/main/java/org/apache/bcel/generic/PushInstruction.java,6
+src/main/java/org/apache/bcel/generic/VariableLengthInstruction.java,6
+src/main/java/org/apache/bcel/generic/UnconditionalBranch.java,6
+src/main/java/org/apache/bcel/classfile/ModuleProvides.java,6
+src/main/java/org/apache/bcel/generic/AllocationInstruction.java,6
+src/main/java/org/apache/bcel/classfile/ModuleRequires.java,6
+src/main/java/org/apache/bcel/classfile/NestHost.java,6
+src/main/java/org/apache/bcel/classfile/ModuleOpens.java,6
+src/main/java/org/apache/bcel/classfile/ConstantPackage.java,6
+src/main/java/org/apache/bcel/classfile/ModuleExports.java,6
+src/java/org/apache/bcel/verifier/structurals/UninitializedObjectType.java,6
+src/java/org/apache/bcel/verifier/structurals/Frame.java,6
+src/java/org/apache/bcel/verifier/VerificationResult.java,6
+src/java/org/apache/bcel/verifier/structurals/InstructionContext.java,6
+src/java/org/apache/bcel/verifier/statics/LocalVariablesInfo.java,6
+src/java/org/apache/bcel/verifier/structurals/ExceptionHandlers.java,6
+src/java/org/apache/bcel/generic/PUTFIELD.java,6
+src/java/org/apache/bcel/util/Class2HTML.java,6
+src/java/org/apache/bcel/classfile/AttributeReader.java,6
+src/java/org/apache/bcel/generic/DCONST.java,6
+src/java/org/apache/bcel/classfile/AnnotationEntry.java,6
+src/java/org/apache/bcel/generic/FCONST.java,6
+src/java/org/apache/bcel/generic/RET.java,6
+src/java/org/apache/bcel/classfile/ConstantInterfaceMethodref.java,6
+src/java/org/apache/bcel/util/AttributeHTML.java,6
+src/java/org/apache/bcel/classfile/ConstantFieldref.java,6
+src/java/org/apache/bcel/classfile/ConstantCP.java,6
+src/java/org/apache/bcel/generic/LCONST.java,6
+src/java/org/apache/bcel/generic/ObjectType.java,6
+src/java/org/apache/bcel/generic/LDC.java,6
+src/java/org/apache/bcel/generic/ICONST.java,6
+src/java/org/apache/bcel/generic/BasicType.java,6
+src/java/org/apache/bcel/generic/SIPUSH.java,6
+src/java/org/apache/bcel/generic/LineNumberGen.java,6
+src/java/org/apache/bcel/classfile/ParameterAnnotations.java,6
+src/java/org/apache/bcel/generic/BIPUSH.java,6
+src/java/org/apache/bcel/classfile/RuntimeInvisibleParameterAnnotations.java,6
+src/java/org/apache/bcel/generic/LocalVariableInstruction.java,6
+src/java/org/apache/bcel/classfile/RuntimeVisibleParameterAnnotations.java,6
+src/java/org/apache/bcel/generic/LOOKUPSWITCH.java,6
+src/java/org/apache/bcel/generic/ArrayType.java,6
+src/java/org/apache/bcel/classfile/ConstantMethodref.java,6
+src/java/org/apache/bcel/generic/InstructionComparator.java,6
+src/java/org/apache/bcel/generic/NEWARRAY.java,6
+src/java/org/apache/bcel/classfile/StackMapEntry.java,6
+src/examples/Mini/Token.java,6
+src/examples/Mini/EnvEntry.java,6
+docs/verifier/JustIce.lyx,6
+examples/patchclass.java,6
+examples/TransitiveHull.java,6
+src/test/java/org/apache/bcel/verifier/tests/TestLegalInvokeVirtual02.java,5
+src/test/java/org/apache/bcel/data/AnnotatedWithCombinedAnnotation.java,5
+src/test/java/org/apache/bcel/data/AnnotatedWithEnumClass.java,5
+src/test/java/org/apache/bcel/generic/BranchHandleTestCase.java,5
+src/test/java/org/apache/bcel/verifier/tests/TestLegalInvokeSpecial01.java,5
+src/test/java/org/apache/bcel/generic/FieldAnnotationsTestCase.java,5
+src/test/java/org/apache/bcel/data/SimpleAnnotatedClass.java,5
+src/test/java/org/apache/bcel/generic/InstructionHandleTestCase.java,5
+src/test/java/org/apache/commons/bcel6/util/BCELifierTestCase.java,5
+src/site/resources/bcel5-bcel6-clirr-report.html,5
+src/test/java/org/apache/bcel/verifier/tests/TestLegalInvokeInterface01.java,5
+src/test/java/org/apache/bcel/generic/TypeTestCase.java,5
+src/test/java/org/apache/bcel/verifier/tests/TestLegalInvokeVirtual01.java,5
+src/test/java/org/apache/bcel/util/LruCacheClassPathRepositoryTestCase.java,5
+src/test/java/org/apache/bcel/verifier/tests/TestReturn02.java,5
+src/test/java/org/apache/bcel/verifier/JiraBcel291TestCase.java,5
+src/test/java/org/apache/commons/bcel6/EnclosingMethodAttributeTestCase.java,5
+src/test/java/org/apache/bcel/verifier/tests/TestArray01.java,5
+src/test/java/org/apache/commons/bcel6/generic/MethodGenTestCase.java,5
+src/test/java/org/apache/bcel/data/ComplexAnnotatedClass.java,5
+src/test/java/org/apache/bcel/data/AnnotatedFields.java,5
+src/test/java/org/apache/bcel/verifier/tests/TestLegalInvokeSpecial02.java,5
+src/main/java/org/apache/commons/bcel6/generic/ReturnaddressType.java,5
+src/main/java/org/apache/commons/bcel6/generic/I2F.java,5
+src/main/java/org/apache/commons/bcel6/generic/DLOAD.java,5
+src/main/java/org/apache/commons/bcel6/generic/ArrayElementValueGen.java,5
+src/main/java/org/apache/commons/bcel6/generic/D2I.java,5
+src/main/java/org/apache/commons/bcel6/generic/DRETURN.java,5
+src/main/java/org/apache/commons/bcel6/generic/SWITCH.java,5
+src/main/java/org/apache/commons/bcel6/generic/DSTORE.java,5
+src/main/java/org/apache/commons/bcel6/generic/DALOAD.java,5
+src/main/java/org/apache/commons/bcel6/generic/DSUB.java,5
+src/main/java/org/apache/commons/bcel6/generic/ILOAD.java,5
+src/main/java/org/apache/commons/bcel6/generic/ASTORE.java,5
+src/main/java/org/apache/commons/bcel6/generic/AASTORE.java,5
+src/main/java/org/apache/commons/bcel6/generic/DUP.java,5
+src/main/java/org/apache/commons/bcel6/generic/FMUL.java,5
+src/main/java/org/apache/commons/bcel6/generic/IOR.java,5
+src/main/java/org/apache/commons/bcel6/generic/FRETURN.java,5
+src/main/java/org/apache/commons/bcel6/generic/DUP_X1.java,5
+src/main/java/org/apache/commons/bcel6/util/ClassStack.java,5
+src/main/java/org/apache/commons/bcel6/generic/IRETURN.java,5
+src/main/java/org/apache/commons/bcel6/verifier/PassVerifier.java,5
+src/main/java/org/apache/commons/bcel6/generic/ISHL.java,5
+src/main/java/org/apache/commons/bcel6/generic/FALOAD.java,5
+src/main/java/org/apache/commons/bcel6/generic/ISHR.java,5
+src/main/java/org/apache/commons/bcel6/generic/IMPDEP2.java,5
+src/main/java/org/apache/commons/bcel6/generic/ISTORE.java,5
+src/main/java/org/apache/commons/bcel6/generic/POP2.java,5
+src/main/java/org/apache/commons/bcel6/generic/ISUB.java,5
+src/main/java/org/apache/commons/bcel6/generic/D2L.java,5
+src/main/java/org/apache/commons/bcel6/generic/IUSHR.java,5
+src/main/java/org/apache/commons/bcel6/generic/SALOAD.java,5
+src/main/java/org/apache/commons/bcel6/generic/IXOR.java,5
+src/main/java/org/apache/commons/bcel6/generic/FNEG.java,5
+src/main/java/org/apache/commons/bcel6/generic/DUP_X2.java,5
+src/main/java/org/apache/commons/bcel6/generic/BREAKPOINT.java,5
+src/main/java/org/apache/commons/bcel6/generic/DUP2.java,5
+src/main/java/org/apache/commons/bcel6/generic/CASTORE.java,5
+src/main/java/org/apache/commons/bcel6/generic/IALOAD.java,5
+src/main/java/org/apache/commons/bcel6/generic/FSUB.java,5
+src/main/java/org/apache/commons/bcel6/generic/L2D.java,5
+src/main/java/org/apache/commons/bcel6/generic/ClassElementValueGen.java,5
+src/main/java/org/apache/commons/bcel6/generic/L2F.java,5
+src/main/java/org/apache/commons/bcel6/generic/DASTORE.java,5
+src/main/java/org/apache/commons/bcel6/generic/L2I.java,5
+src/main/java/org/apache/commons/bcel6/generic/I2C.java,5
+src/main/java/org/apache/commons/bcel6/generic/LADD.java,5
+src/main/java/org/apache/commons/bcel6/generic/FADD.java,5
+src/main/java/org/apache/commons/bcel6/generic/LALOAD.java,5
+src/main/java/org/apache/commons/bcel6/generic/FASTORE.java,5
+src/main/java/org/apache/commons/bcel6/generic/DUP2_X1.java,5
+src/main/java/org/apache/commons/bcel6/generic/IMPDEP1.java,5
+src/main/java/org/apache/commons/bcel6/generic/LASTORE.java,5
+src/main/java/org/apache/commons/bcel6/generic/NOP.java,5
+src/main/java/org/apache/commons/bcel6/generic/IAND.java,5
+src/main/java/org/apache/commons/bcel6/generic/POP.java,5
+src/main/java/org/apache/commons/bcel6/generic/DUP2_X2.java,5
+src/main/java/org/apache/commons/bcel6/generic/FDIV.java,5
+src/main/java/org/apache/commons/bcel6/generic/BALOAD.java,5
+src/main/java/org/apache/commons/bcel6/generic/IMUL.java,5
+src/main/java/org/apache/commons/bcel6/generic/IASTORE.java,5
+src/main/java/org/apache/commons/bcel6/generic/RETURN.java,5
+src/main/java/org/apache/commons/bcel6/generic/D2F.java,5
+src/main/java/org/apache/commons/bcel6/generic/FLOAD.java,5
+src/main/java/org/apache/commons/bcel6/generic/I2L.java,5
+src/main/java/org/apache/commons/bcel6/generic/SASTORE.java,5
+src/main/java/org/apache/commons/bcel6/generic/I2S.java,5
+src/main/java/org/apache/commons/bcel6/generic/INEG.java,5
+src/main/java/org/apache/commons/bcel6/generic/LLOAD.java,5
+src/main/java/org/apache/commons/bcel6/generic/SWAP.java,5
+src/main/java/org/apache/commons/bcel6/generic/LMUL.java,5
+src/main/java/org/apache/commons/bcel6/generic/DDIV.java,5
+src/main/java/org/apache/commons/bcel6/generic/LNEG.java,5
+src/main/java/org/apache/commons/bcel6/generic/FREM.java,5
+src/main/java/org/apache/commons/bcel6/generic/F2I.java,5
+src/main/java/org/apache/commons/bcel6/generic/CALOAD.java,5
+src/main/java/org/apache/commons/bcel6/generic/BASTORE.java,5
+src/main/java/org/apache/commons/bcel6/generic/FSTORE.java,5
+src/main/java/org/apache/commons/bcel6/generic/AALOAD.java,5
+src/main/java/org/apache/commons/bcel6/classfile/Visitor.java,5
+src/main/java/org/apache/commons/bcel6/generic/LOR.java,5
+src/main/java/org/apache/commons/bcel6/generic/DMUL.java,5
+src/main/java/org/apache/commons/bcel6/generic/F2L.java,5
+src/main/java/org/apache/commons/bcel6/generic/DNEG.java,5
+src/main/java/org/apache/commons/bcel6/generic/LRETURN.java,5
+src/main/java/org/apache/commons/bcel6/generic/DADD.java,5
+src/main/java/org/apache/commons/bcel6/generic/LSHL.java,5
+src/main/java/org/apache/commons/bcel6/generic/ALOAD.java,5
+src/main/java/org/apache/commons/bcel6/generic/LSHR.java,5
+src/main/java/org/apache/commons/bcel6/generic/I2B.java,5
+src/main/java/org/apache/commons/bcel6/generic/LSTORE.java,5
+src/main/java/org/apache/commons/bcel6/generic/ARETURN.java,5
+src/main/java/org/apache/commons/bcel6/generic/LSUB.java,5
+src/main/java/org/apache/commons/bcel6/generic/I2D.java,5
+src/main/java/org/apache/commons/bcel6/generic/LUSHR.java,5
+src/main/java/org/apache/commons/bcel6/generic/DREM.java,5
+src/main/java/org/apache/commons/bcel6/generic/LXOR.java,5
+src/main/java/org/apache/commons/bcel6/generic/EmptyVisitor.java,5
+src/main/java/org/apache/commons/bcel6/generic/IADD.java,5
+src/main/java/org/apache/commons/bcel6/generic/F2D.java,5
+src/main/java/org/apache/commons/bcel6/generic/LAND.java,5
+src/main/java/org/apache/commons/bcel6/classfile/ConstantFieldref.java,5
+src/main/java/org/apache/bcel/generic/VisitorSupportsInvokeDynamic.java,5
+src/main/java/org/apache/commons/bcel6/classfile/RuntimeInvisibleParameterAnnotations.java,5
+src/main/java/org/apache/bcel/util/LruCacheClassPathRepository.java,5
+src/main/java/org/apache/commons/bcel6/classfile/ConstantInterfaceMethodref.java,5
+src/main/java/org/apache/bcel/util/package.html,5
+src/main/java/org/apache/commons/bcel6/classfile/RuntimeVisibleParameterAnnotations.java,5
+src/main/java/org/apache/commons/bcel6/classfile/ConstantMethodref.java,5
+src/main/java/org/apache/bcel/classfile/ModulePackages.java,5
+src/main/java/org/apache/bcel/classfile/ModuleMainClass.java,5
+src/main/java/org/apache/bcel/classfile/ConstantModule.java,5
+src/main/java/org/apache/bcel/classfile/UnknownAttributeReader.java,5
+src/java/org/apache/bcel/verifier/GraphicalVerifier.java,5
+src/java/org/apache/bcel/verifier/statics/LocalVariableInfo.java,5
+src/java/org/apache/bcel/verifier/PassVerifier.java,5
+src/java/org/apache/bcel/verifier/TransitiveHull.java,5
+src/java/org/apache/bcel/verifier/statics/IntList.java,5
+src/main/assembly/src.xml,5
+src/java/org/apache/bcel/verifier/structurals/ExecutionVisitor.java,5
+src/java/org/apache/bcel/util/BCELComparator.java,5
+src/java/org/apache/bcel/generic/CodeExceptionGen.java,5
+src/java/org/apache/bcel/generic/BREAKPOINT.java,5
+src/java/org/apache/bcel/generic/MULTIANEWARRAY.java,5
+src/java/org/apache/bcel/generic/GOTO.java,5
+src/java/org/apache/bcel/generic/GOTO_W.java,5
+src/java/org/apache/bcel/generic/IfInstruction.java,5
+src/java/org/apache/bcel/generic/InvokeInstruction.java,5
+src/java/org/apache/bcel/generic/CHECKCAST.java,5
+src/java/org/apache/bcel/generic/PUSH.java,5
+src/java/org/apache/bcel/generic/ANEWARRAY.java,5
+src/java/org/apache/bcel/generic/INVOKEINTERFACE.java,5
+src/java/org/apache/bcel/generic/CPInstruction.java,5
+src/java/org/apache/bcel/generic/PUTSTATIC.java,5
+src/java/org/apache/bcel/classfile/RuntimeInvisibleAnnotations.java,5
+src/java/org/apache/bcel/generic/IXOR.java,5
+src/java/org/apache/bcel/util/ByteSequence.java,5
+src/java/org/apache/bcel/generic/JSR.java,5
+src/java/org/apache/bcel/classfile/RuntimeVisibleAnnotations.java,5
+src/java/org/apache/bcel/classfile/ParameterAnnotationEntry.java,5
+src/java/org/apache/bcel/generic/BranchHandle.java,5
+src/java/org/apache/bcel/util/ConstantHTML.java,5
+src/java/org/apache/bcel/util/ClassStack.java,5
+src/java/org/apache/bcel/generic/StoreInstruction.java,5
+src/java/org/apache/bcel/generic/LXOR.java,5
+src/java/org/apache/bcel/util/JavaWrapper.java,5
+src/java/org/apache/bcel/verifier/exc/AssertionViolatedException.java,5
+src/java/org/apache/bcel/generic/JSR_W.java,5
+src/java/org/apache/bcel/util/MethodHTML.java,5
+src/java/org/apache/bcel/generic/JsrInstruction.java,5
+src/java/org/apache/bcel/generic/LCMP.java,5
+src/java/org/apache/bcel/classfile/AnnotationDefault.java,5
+src/examples/Mini/Node.java,5
+examples/Mini/ASTLetExpr.java,5
+examples/Mini/Variable.java,5
+examples/Mini/ASTProgram.java,5
+examples/id.java,5
+examples/Peephole.java,5
+default.properties,5
+examples/ProxyCreator.java,5
+examples/Mini/ASTFunDecl.java,5
+examples/helloify.java,5
+project.properties,5
+examples/HelloWorldBuilder.java,5
+checkstyle_suppressions.xml,5
+examples/Mini/ASTIdent.java,5
+examples/maxstack.java,5
+examples/Mini/ASTFunAppl.java,5
+examples/Mini/ASTIfExpr.java,5
+src/main/java/org/apache/commons/bcel6/verifier/VerificationResult.java,4
+src/test/java/org/apache/commons/bcel6/PerformanceTest.java,4
+src/test/java/org/apache/commons/bcel6/verifier/tests/TestLegalInvokeInterface01.java,4
+src/test/java/org/apache/commons/bcel6/ElementValueGenTestCase.java,4
+src/site/xdoc/projects.xml,4
+src/test/java/org/apache/commons/bcel6/verifier/tests/TestLegalInvokeSpecial02.java,4
+src/test/java/org/apache/commons/bcel6/verifier/tests/TestArray01.java,4
+src/test/java/org/apache/commons/bcel6/verifier/tests/TestLegalInvokeVirtual02.java,4
+src/test/java/org/apache/commons/bcel6/AnonymousClassTestCase.java,4
+src/test/java/org/apache/bcel/util/ClassPathTestCase.java,4
+src/main/java/org/apache/commons/bcel6/verifier/TransitiveHull.java,4
+src/test/java/org/apache/bcel/verifier/tests/TestLegalInvokeStatic01.java,4
+src/test/java/org/apache/bcel/data/PLSETestEnum.java,4
+src/main/java/org/apache/commons/bcel6/generic/StoreInstruction.java,4
+src/main/java/org/apache/commons/bcel6/generic/StackInstruction.java,4
+src/main/java/org/apache/commons/bcel6/verifier/structurals/ExceptionHandlers.java,4
+src/main/java/org/apache/commons/bcel6/Repository.java,4
+src/main/java/org/apache/commons/bcel6/verifier/statics/IntList.java,4
+src/main/java/org/apache/commons/bcel6/generic/AnnotationElementValueGen.java,4
+src/main/java/org/apache/commons/bcel6/verifier/exc/ClassConstraintException.java,4
+src/main/java/org/apache/commons/bcel6/ExceptionConst.java,4
+src/main/java/org/apache/commons/bcel6/verifier/NativeVerifier.java,4
+src/main/java/org/apache/commons/bcel6/generic/GotoInstruction.java,4
+src/main/java/org/apache/commons/bcel6/verifier/statics/DOUBLE_Upper.java,4
+src/main/java/org/apache/commons/bcel6/generic/LoadInstruction.java,4
+src/main/java/org/apache/commons/bcel6/verifier/statics/LONG_Upper.java,4
+src/main/java/org/apache/commons/bcel6/util/JavaWrapper.java,4
+src/main/java/org/apache/commons/bcel6/generic/EnumElementValueGen.java,4
+src/main/java/org/apache/commons/bcel6/verifier/exc/AssertionViolatedException.java,4
+src/main/java/org/apache/commons/bcel6/generic/IfInstruction.java,4
+src/main/java/org/apache/bcel/generic/package.html,4
+src/main/java/org/apache/bcel/verifier/structurals/package.html,4
+src/main/java/org/apache/commons/bcel6/classfile/AttributeReader.java,4
+src/main/java/org/apache/bcel/verifier/exc/package.html,4
+src/main/java/org/apache/bcel/verifier/statics/package.html,4
+src/main/java/org/apache/commons/bcel6/classfile/ArrayElementValue.java,4
+src/main/java/org/apache/commons/bcel6/classfile/EnumElementValue.java,4
+src/main/java/org/apache/commons/bcel6/classfile/ClassElementValue.java,4
+src/main/java/org/apache/bcel/verifier/package.html,4
+src/main/java/org/apache/commons/bcel6/classfile/ElementValuePair.java,4
+src/main/java/org/apache/commons/bcel6/classfile/ClassFormatException.java,4
+src/java/org/apache/bcel/verifier/VerifierFactoryListModel.java,4
+src/java/org/apache/bcel/verifier/NativeVerifier.java,4
+src/java/org/apache/bcel/verifier/structurals/Subroutine.java,4
+src/java/org/apache/bcel/verifier/structurals/GenericArray.java,4
+src/java/org/apache/bcel/verifier/exc/LoadingException.java,4
+src/java/org/apache/bcel/verifier/exc/VerifierConstraintViolatedException.java,4
+src/java/org/apache/bcel/verifier/VerifierFactoryObserver.java,4
+src/java/org/apache/bcel/verifier/exc/InvalidMethodException.java,4
+src/java/org/apache/bcel/verifier/exc/Utility.java,4
+src/java/org/apache/bcel/verifier/structurals/ExceptionHandler.java,4
+src/java/org/apache/bcel/verifier/exc/ClassConstraintException.java,4
+src/java/org/apache/bcel/generic/DUP2_X1.java,4
+src/java/org/apache/bcel/generic/LRETURN.java,4
+src/java/org/apache/bcel/generic/FMUL.java,4
+src/java/org/apache/bcel/generic/FRETURN.java,4
+src/java/org/apache/bcel/generic/DRETURN.java,4
+src/java/org/apache/bcel/generic/FSTORE.java,4
+src/java/org/apache/bcel/generic/F2I.java,4
+src/java/org/apache/bcel/generic/FSUB.java,4
+src/java/org/apache/bcel/generic/LNEG.java,4
+src/java/org/apache/bcel/generic/GETFIELD.java,4
+src/java/org/apache/bcel/generic/MethodObserver.java,4
+src/java/org/apache/bcel/generic/GETSTATIC.java,4
+src/java/org/apache/bcel/generic/DUP_X1.java,4
+src/java/org/apache/bcel/generic/ACONST_NULL.java,4
+src/java/org/apache/bcel/generic/TargetLostException.java,4
+src/java/org/apache/bcel/generic/AllocationInstruction.java,4
+src/java/org/apache/bcel/generic/ATHROW.java,4
+src/java/org/apache/bcel/generic/GotoInstruction.java,4
+src/java/org/apache/bcel/generic/LDIV.java,4
+src/java/org/apache/bcel/generic/I2B.java,4
+src/java/org/apache/bcel/generic/ASTORE.java,4
+src/java/org/apache/bcel/generic/I2C.java,4
+src/java/org/apache/bcel/generic/LSUB.java,4
+src/java/org/apache/bcel/generic/I2D.java,4
+src/java/org/apache/bcel/generic/NamedAndTyped.java,4
+src/java/org/apache/bcel/generic/I2F.java,4
+src/java/org/apache/bcel/generic/DSTORE.java,4
+src/java/org/apache/bcel/generic/ALOAD.java,4
+src/java/org/apache/bcel/generic/ReturnInstruction.java,4
+src/java/org/apache/bcel/generic/I2S.java,4
+src/java/org/apache/bcel/generic/DUP2_X2.java,4
+src/java/org/apache/bcel/generic/IADD.java,4
+src/java/org/apache/bcel/generic/VariableLengthInstruction.java,4
+src/java/org/apache/bcel/generic/IALOAD.java,4
+src/java/org/apache/bcel/generic/FASTORE.java,4
+src/java/org/apache/bcel/generic/IAND.java,4
+src/java/org/apache/bcel/generic/FieldInstruction.java,4
+src/java/org/apache/bcel/generic/IASTORE.java,4
+src/java/org/apache/bcel/generic/DASTORE.java,4
+src/java/org/apache/bcel/ExceptionConstants.java,4
+src/java/org/apache/bcel/generic/LLOAD.java,4
+src/java/org/apache/bcel/generic/IDIV.java,4
+src/java/org/apache/bcel/generic/LoadInstruction.java,4
+src/java/org/apache/bcel/generic/IF_ACMPEQ.java,4
+src/java/org/apache/bcel/generic/LOR.java,4
+src/java/org/apache/bcel/generic/IF_ACMPNE.java,4
+src/java/org/apache/bcel/generic/LSHR.java,4
+src/java/org/apache/bcel/generic/IF_ICMPEQ.java,4
+src/java/org/apache/bcel/generic/DLOAD.java,4
+src/java/org/apache/bcel/generic/IF_ICMPGE.java,4
+src/java/org/apache/bcel/generic/MONITOREXIT.java,4
+src/java/org/apache/bcel/generic/IF_ICMPGT.java,4
+src/java/org/apache/bcel/generic/DREM.java,4
+src/java/org/apache/bcel/generic/IF_ICMPLE.java,4
+src/java/org/apache/bcel/generic/POP2.java,4
+src/java/org/apache/bcel/generic/IF_ICMPLT.java,4
+src/java/org/apache/bcel/generic/DSUB.java,4
+src/java/org/apache/bcel/generic/IF_ICMPNE.java,4
+src/java/org/apache/bcel/generic/RETURN.java,4
+src/java/org/apache/bcel/generic/IFEQ.java,4
+src/java/org/apache/bcel/generic/SASTORE.java,4
+src/java/org/apache/bcel/generic/IFGE.java,4
+src/java/org/apache/bcel/generic/StackInstruction.java,4
+src/java/org/apache/bcel/generic/IFGT.java,4
+src/java/org/apache/bcel/generic/SWITCH.java,4
+src/java/org/apache/bcel/generic/CALOAD.java,4
+src/java/org/apache/bcel/generic/TypedInstruction.java,4
+src/java/org/apache/bcel/generic/IFLE.java,4
+src/java/org/apache/bcel/classfile/ConstantObject.java,4
+src/java/org/apache/bcel/generic/IFLT.java,4
+src/java/org/apache/bcel/generic/FADD.java,4
+src/java/org/apache/bcel/generic/IFNE.java,4
+src/java/org/apache/bcel/generic/FCMPL.java,4
+src/java/org/apache/bcel/generic/IFNONNULL.java,4
+src/java/org/apache/bcel/generic/BALOAD.java,4
+src/java/org/apache/bcel/generic/IFNULL.java,4
+src/java/org/apache/bcel/generic/BASTORE.java,4
+src/java/org/apache/bcel/generic/CASTORE.java,4
+src/java/org/apache/bcel/generic/FREM.java,4
+src/java/org/apache/bcel/generic/ILOAD.java,4
+src/java/org/apache/bcel/generic/LDC2_W.java,4
+src/java/org/apache/bcel/generic/ARETURN.java,4
+src/java/org/apache/bcel/generic/DCMPG.java,4
+src/java/org/apache/bcel/generic/IMPDEP2.java,4
+src/java/org/apache/bcel/generic/LMUL.java,4
+src/java/org/apache/bcel/generic/IMUL.java,4
+src/java/org/apache/bcel/generic/LoadClass.java,4
+src/java/org/apache/bcel/generic/IndexedInstruction.java,4
+src/java/org/apache/bcel/generic/DCMPL.java,4
+src/java/org/apache/bcel/generic/INEG.java,4
+src/java/org/apache/bcel/generic/DDIV.java,4
+src/java/org/apache/bcel/generic/INSTANCEOF.java,4
+src/java/org/apache/bcel/generic/LREM.java,4
+src/java/org/apache/bcel/generic/ArithmeticInstruction.java,4
+src/java/org/apache/bcel/generic/LSHL.java,4
+src/java/org/apache/bcel/generic/ClassGenException.java,4
+src/java/org/apache/bcel/generic/LSTORE.java,4
+src/java/org/apache/bcel/generic/InstructionConstants.java,4
+src/java/org/apache/bcel/generic/LUSHR.java,4
+src/java/org/apache/bcel/generic/ClassObserver.java,4
+src/java/org/apache/bcel/generic/DMUL.java,4
+src/java/org/apache/bcel/generic/ArrayInstruction.java,4
+src/java/org/apache/bcel/generic/MONITORENTER.java,4
+src/java/org/apache/bcel/generic/CompoundInstruction.java,4
+src/java/org/apache/bcel/generic/DNEG.java,4
+src/java/org/apache/bcel/generic/InstructionListObserver.java,4
+src/java/org/apache/bcel/generic/NEW.java,4
+src/java/org/apache/bcel/generic/InstructionTargeter.java,4
+src/java/org/apache/bcel/generic/NOP.java,4
+src/java/org/apache/bcel/generic/ARRAYLENGTH.java,4
+src/java/org/apache/bcel/generic/POP.java,4
+src/java/org/apache/bcel/generic/ConstantPushInstruction.java,4
+src/java/org/apache/bcel/generic/PopInstruction.java,4
+src/java/org/apache/bcel/generic/INVOKESPECIAL.java,4
+src/java/org/apache/bcel/generic/PushInstruction.java,4
+src/java/org/apache/bcel/generic/INVOKESTATIC.java,4
+src/java/org/apache/bcel/generic/DUP.java,4
+src/java/org/apache/bcel/generic/INVOKEVIRTUAL.java,4
+src/java/org/apache/bcel/generic/DUP_X2.java,4
+src/java/org/apache/bcel/generic/IOR.java,4
+src/java/org/apache/bcel/classfile/Node.java,4
+src/java/org/apache/bcel/generic/IREM.java,4
+src/java/org/apache/bcel/generic/SALOAD.java,4
+src/java/org/apache/bcel/generic/IRETURN.java,4
+src/java/org/apache/bcel/generic/DUP2.java,4
+src/java/org/apache/bcel/generic/ISHL.java,4
+src/java/org/apache/bcel/generic/StackConsumer.java,4
+src/java/org/apache/bcel/generic/ISHR.java,4
+src/java/org/apache/bcel/generic/StackProducer.java,4
+src/java/org/apache/bcel/generic/ISTORE.java,4
+src/java/org/apache/bcel/generic/SWAP.java,4
+src/java/org/apache/bcel/generic/ISUB.java,4
+src/java/org/apache/bcel/generic/EmptyVisitor.java,4
+src/java/org/apache/bcel/generic/IUSHR.java,4
+src/java/org/apache/bcel/generic/ExceptionThrower.java,4
+src/java/org/apache/bcel/generic/ConversionInstruction.java,4
+src/java/org/apache/bcel/generic/UnconditionalBranch.java,4
+src/java/org/apache/bcel/generic/AALOAD.java,4
+src/java/org/apache/bcel/generic/Visitor.java,4
+src/java/org/apache/bcel/generic/D2F.java,4
+src/java/org/apache/bcel/generic/F2D.java,4
+src/java/org/apache/bcel/generic/D2I.java,4
+src/java/org/apache/bcel/generic/F2L.java,4
+src/java/org/apache/bcel/generic/L2D.java,4
+src/java/org/apache/bcel/generic/FALOAD.java,4
+src/java/org/apache/bcel/generic/L2F.java,4
+src/java/org/apache/bcel/generic/FCMPG.java,4
+src/java/org/apache/bcel/generic/L2I.java,4
+src/java/org/apache/bcel/classfile/ClassFormatException.java,4
+src/java/org/apache/bcel/generic/LADD.java,4
+src/java/org/apache/bcel/generic/FDIV.java,4
+src/java/org/apache/bcel/generic/LALOAD.java,4
+src/java/org/apache/bcel/generic/AASTORE.java,4
+src/java/org/apache/bcel/generic/LAND.java,4
+src/java/org/apache/bcel/generic/FieldObserver.java,4
+src/java/org/apache/bcel/generic/LASTORE.java,4
+src/java/org/apache/bcel/generic/FLOAD.java,4
+src/java/org/apache/bcel/generic/D2L.java,4
+src/java/org/apache/bcel/generic/FNEG.java,4
+src/java/org/apache/bcel/generic/DADD.java,4
+src/java/org/apache/bcel/generic/DALOAD.java,4
+src/java/org/apache/bcel/generic/IMPDEP1.java,4
+src/java/org/apache/bcel/generic/I2L.java,4
+src/conf/checkstyle.xml,4
+src/examples/Mini/MiniParserTreeConstants.java,4
+examples/Mini/Environment.java,4
+docs/verifier/GNUmakefile,4
+build-maven.xml,4
+examples/Mini/Function.java,4
+examples/Mini/ASTTerm.java,4
+examples/Mini/MiniC.java,4
+jakarta-bcel-doap.xml,4
+examples/Mini/MiniParser.java,4
+examples/Mini/ASTInteger.java,4
+examples/Mini/MiniParserTokenManager.java,4
+examples/Mini/ASTExpr.java,4
+examples/Mini/ASTFactor.java,4
+src/test/java/org/apache/commons/bcel6/InstructionFinderTestCase.java,3
+src/test/java/org/apache/bcel/data/PLSETestClass2.java,3
+src/test/java/org/apache/bcel/util/ClassPathRepositoryTestCase.java,3
+src/test/java/org/apache/commons/bcel6/BCELBenchmark.java,3
+src/test/java/org/apache/commons/bcel6/verifier/VerifierTestCase.java,3
+src/test/java/org/apache/commons/bcel6/classfile/UtilityTestCase.java,3
+src/site/xdoc/manual/introduction.xml,3
+src/test/java/org/apache/commons/bcel6/data/AnonymousClassTest.java,3
+src/test/java/org/apache/bcel/data/PLSETestClass.java,3
+src/test/java/org/apache/commons/bcel6/data/AttributeTestClassEM01.java,3
+xdocs/news.xml,3
+src/test/java/org/apache/commons/bcel6/data/AttributeTestClassEM02.java,3
+src/test/java/org/apache/bcel/HandleTestCase.java,3
+src/test/java/org/apache/commons/bcel6/data/PLSETestClass.java,3
+src/test/java/org/apache/commons/bcel6/NanoTimer.java,3
+src/test/java/org/apache/bcel/util/ModularRuntimeImageTestCase.java,3
+src/test/java/org/apache/commons/bcel6/PLSETestCase.java,3
+src/test/java/org/apache/bcel/classfile/LocalVariableTestCase.java,3
+src/test/java/org/apache/commons/bcel6/util/Class2HTMLTestCase.java,3
+src/test/java/org/apache/commons/bcel6/EnumAccessFlagTestCase.java,3
+src/test/java/org/apache/bcel/classfile/CodeExceptionTestCase.java,3
+src/test/java/org/apache/commons/bcel6/FieldAnnotationsTestCase.java,3
+src/site/xdoc/issue-tracking.xml,3
+src/test/java/org/apache/bcel/verifier/structurals/UninitializedObjectTypeTestCase.java,3
+src/test/java/org/apache/commons/bcel6/verifier/tests/TestReturn02.java,3
+src/test/java/org/apache/commons/bcel6/generic/InstructionHandleTestCase.java,3
+src/main/java/org/apache/commons/bcel6/verifier/structurals/Subroutine.java,3
+src/test/java/org/apache/commons/bcel6/generic/JDKGenericDumpTestCase.java,3
+src/test/java/org/apache/bcel/data/package-info.java,3
+src/test/java/org/apache/bcel/verifier/tests/JiraBcel291TestFixture.java,3
+src/test/java/org/apache/bcel/verifier/statics/Pass2VerifierTestCase.java,3
+src/main/java/org/apache/commons/bcel6/verifier/structurals/ExceptionHandler.java,3
+src/main/java/org/apache/commons/bcel6/verifier/exc/InvalidMethodException.java,3
+src/main/java/org/apache/commons/bcel6/verifier/exc/CodeConstraintException.java,3
+src/main/java/org/apache/commons/bcel6/verifier/structurals/InstructionContext.java,3
+src/main/java/org/apache/commons/bcel6/generic/ClassGenException.java,3
+src/main/java/org/apache/commons/bcel6/verifier/exc/StructuralCodeConstraintException.java,3
+src/main/java/org/apache/commons/bcel6/util/ByteSequence.java,3
+src/main/java/org/apache/commons/bcel6/verifier/exc/Utility.java,3
+src/main/java/org/apache/commons/bcel6/verifier/statics/LocalVariablesInfo.java,3
+src/main/java/org/apache/commons/bcel6/verifier/exc/VerificationException.java,3
+src/main/java/org/apache/commons/bcel6/verifier/exc/LocalVariableInfoInconsistentException.java,3
+src/main/java/org/apache/commons/bcel6/verifier/exc/VerifierConstraintViolatedException.java,3
+src/main/java/org/apache/commons/bcel6/generic/Visitor.java,3
+src/main/java/org/apache/commons/bcel6/util/Repository.java,3
+src/main/java/org/apache/commons/bcel6/generic/TargetLostException.java,3
+src/main/java/org/apache/commons/bcel6/classfile/UnknownAttributeReader.java,3
+src/main/java/org/apache/commons/bcel6/verifier/exc/StaticCodeConstraintException.java,3
+src/main/java/org/apache/commons/bcel6/generic/InstructionConst.java,3
+src/main/java/org/apache/commons/bcel6/verifier/exc/StaticCodeInstructionConstraintException.java,3
+src/main/java/org/apache/commons/bcel6/verifier/exc/StaticCodeInstructionOperandConstraintException.java,3
+src/main/java/org/apache/commons/bcel6/verifier/exc/LoadingException.java,3
+src/main/java/org/apache/bcel/generic/InstructionConst.java,3
+src/main/java/org/apache/commons/bcel6/classfile/AnnotationElementValue.java,3
+src/main/java/org/apache/bcel/classfile/NestMembers.java,3
+src/main/java/org/apache/bcel/generic/AnnotationGen.java,3
+src/main/java/org/apache/bcel/generic/ElementNameValuePairGen.java,3
+src/java/org/apache/bcel/verifier/exc/StaticCodeInstructionOperandConstraintException.java,3
+src/java/org/apache/bcel/verifier/statics/DOUBLE_Upper.java,3
+src/java/org/apache/bcel/verifier/statics/LONG_Upper.java,3
+src/java/org/apache/bcel/verifier/exc/VerificationException.java,3
+src/java/org/apache/bcel/verifier/exc/StaticCodeInstructionConstraintException.java,3
+src/java/org/apache/bcel/verifier/exc/CodeConstraintException.java,3
+src/java/org/apache/bcel/verifier/exc/StructuralCodeConstraintException.java,3
+src/java/org/apache/bcel/verifier/exc/LocalVariableInfoInconsistentException.java,3
+src/main/assembly/bin.xml,3
+src/java/org/apache/bcel/verifier/exc/LinkingConstraintException.java,3
+src/java/org/apache/bcel/verifier/exc/StaticCodeConstraintException.java,3
+src/java/org/apache/bcel/classfile/ElementValue.java,3
+src/java/org/apache/bcel/classfile/ElementValuePair.java,3
+src/assembly/src.xml,3
+src/assembly/bin.xml,3
+src/examples/Mini/MiniParserConstants.java,3
+src/examples/Mini/README,3
+examples/Mini/SimpleNode.java,3
+examples/Mini/ParseException.java,3
+clirr-ignored-diffs.xml,3
+findbugs-exclude-filter.xml,3
+docs/appendix.tex,3
+examples/Package.java,3
+examples/Mini/ASCII_CharStream.java,3
+LICENSE-header.txt,3
+.settings/org.eclipse.jdt.core.prefs,3
+manifest.txt,3
+CONTRIBUTING.md,3
+examples/Mini/EnvEntry.java,3
+src/test/resources/org/apache/bcel/verifier/tests/TestReturn01.class,2
+src/test/java/org/apache/commons/bcel6/verifier/tests/TestLegalInvokeStatic01.java,2
+src/site/resources/stylesheets/project.xml,2
+src/test/java/org/apache/bcel/generic/EmptyStaticInit.java,2
+src/test/java/org/apache/bcel/data/SimpleClassWithDefaultConstructor.java,2
+src/site/xdoc/manual/appendix.xml,2
+src/main/java/org/apache/commons/bcel6/verifier/VerifierFactoryObserver.java,2
+src/site/xdoc/manual/jvm.xml,2
+src/test/java/org/apache/commons/bcel6/verifier/tests/TestCreator.java,2
+src/test/java/org/apache/bcel/BCELBenchmark.java,2
+src/test/java/org/apache/bcel/data/SimpleClassHasMethodIncludeGenericArgument.java,2
+src/test/java/org/apache/commons/bcel6/AbstractCounterVisitorTestCase.java,2
+src/test/resources/org/apache/bcel/verifier/tests/TestArrayAccess03.class,2
+src/test/java/org/apache/commons/bcel6/AnnotationAccessFlagTestCase.java,2
+xdocs/images/bcel-logo.gif,2
+src/test/java/org/apache/commons/bcel6/AnnotationDefaultAttributeTestCase.java,2
+src/test/java/org/apache/bcel/data/ConstantPoolX.java,2
+src/test/java/org/apache/commons/bcel6/classfile/JDKClassDumpTestCase.java,2
+src/test/java/org/apache/commons/bcel6/util/InstructionFinderTest.java,2
+src/test/java/org/apache/commons/bcel6/CounterVisitorTestCase.java,2
+src/test/java/org/apache/commons/bcel6/verifier/tests/TestLegalInvokeSpecial01.java,2
+src/test/java/org/apache/commons/bcel6/data/AnnotatedWithCombinedAnnotation.java,2
+src/test/java/org/apache/commons/bcel6/verifier/tests/TestLegalInvokeVirtual01.java,2
+src/test/java/org/apache/commons/bcel6/data/AnnotationEnumElement.java,2
+src/test/java/org/apache/commons/bcel6/verifier/VerifierArrayAccessTestCase.java,2
+src/site/resources/download_bcel.cgi,2
+src/test/resources/org/apache/bcel/verifier/tests/TestArrayAccess02.class,2
+src/test/java/org/apache/commons/bcel6/data/CombinedAnnotation.java,2
+src/test/resources/org/apache/bcel/verifier/tests/TestArrayAccess04.class,2
+src/test/java/org/apache/commons/bcel6/data/ComplexAnnotation.java,2
+src/test/resources/org/apache/bcel/verifier/tests/TestReturn03.class,2
+src/test/java/org/apache/commons/bcel6/data/MarkerAnnotationInvisible.java,2
+xdocs/license.xml,2
+src/test/java/org/apache/commons/bcel6/data/SimpleAnnotation.java,2
+src/test/java/org/apache/commons/bcel6/data/SimpleClass.java,2
+src/test/java/org/apache/commons/bcel6/data/MarkerAnnotation.java,2
+src/main/java/org/apache/commons/bcel6/generic/VariableLengthInstruction.java,2
+src/main/java/org/apache/commons/bcel6/generic/TypedInstruction.java,2
+src/main/java/org/apache/commons/bcel6/verifier/structurals/GenericArray.java,2
+src/main/java/org/apache/commons/bcel6/util/MemorySensitiveClassPathRepository.java,2
+src/main/java/org/apache/commons/bcel6/generic/AllocationInstruction.java,2
+src/main/java/org/apache/commons/bcel6/generic/StackConsumer.java,2
+src/main/java/org/apache/commons/bcel6/generic/LoadClass.java,2
+src/main/java/org/apache/commons/bcel6/generic/IndexedInstruction.java,2
+src/main/java/org/apache/commons/bcel6/generic/NamedAndTyped.java,2
+src/main/java/org/apache/commons/bcel6/generic/PopInstruction.java,2
+src/main/java/org/apache/commons/bcel6/generic/PushInstruction.java,2
+src/main/java/org/apache/commons/bcel6/generic/FieldObserver.java,2
+src/main/java/org/apache/commons/bcel6/generic/UnconditionalBranch.java,2
+src/main/java/org/apache/commons/bcel6/generic/ExceptionThrower.java,2
+src/main/java/org/apache/commons/bcel6/generic/MethodObserver.java,2
+src/main/java/org/apache/commons/bcel6/generic/StackProducer.java,2
+src/main/java/org/apache/commons/bcel6/util/BCELComparator.java,2
+src/main/java/org/apache/commons/bcel6/generic/ElementValuePairGen.java,2
+src/main/java/org/apache/commons/bcel6/generic/InstructionTargeter.java,2
+src/main/java/org/apache/commons/bcel6/util/ClassPathRepository.java,2
+src/main/java/org/apache/commons/bcel6/generic/CompoundInstruction.java,2
+src/main/java/org/apache/commons/bcel6/generic/InstructionListObserver.java,2
+src/main/java/org/apache/commons/bcel6/generic/ConstantPushInstruction.java,2
+src/main/java/org/apache/commons/bcel6/verifier/exc/LinkingConstraintException.java,2
+src/main/java/org/apache/commons/bcel6/generic/ClassObserver.java,2
+src/main/java/org/apache/commons/bcel6/classfile/Node.java,2
+src/main/java/org/apache/bcel/util/ModularRuntimeImage.java,2
+src/main/java/org/apache/commons/bcel6/classfile/ConstantObject.java,2
+src/main/java/org/apache/bcel/classfile/ConstantDynamic.java,2
+src/main/java/org/apache/bcel/classfile/package.html,2
+src/java/org/apache/bcel/verifier/package.html,2
+src/java/org/apache/bcel/verifier/exc/package.html,2
+src/java/org/apache/bcel/verifier/statics/package.html,2
+src/java/org/apache/bcel/verifier/structurals/package.html,2
+src/java/org/apache/bcel/classfile/lic,2
+src/java/org/apache/bcel/package.html,2
+src/java/org/apache/bcel/util/package.html,2
+src/conf/clirr-ignored-diffs.xml,2
+src/examples/Mini/Mini.jjt,2
+docs/verifier/justicecfg.eps,2
+pmd.xml,2
+examples/Mini/README,2
+.gitignore,2
+docs/verifier/conventcfg.eps,2
+.project,2
+examples/Mini/JJTMiniParserState.java,2
+.github/dependabot.yml,2
+LICENSE.txt,2
+checkstyle_maven.properties,2
+docs/verifier/chap1.eps,2
+.settings/org.eclipse.jdt.ui.prefs,2
+docs/verifier/exframe.eps,2
+.cvsignore,2
+docs/verifier/VerificationAPI.eps,2
+docs/bool.java,2
+examples/Mini/MiniParserTreeConstants.java,2
+docs/diagrams.tex,2
+lib/CCK.jar,2
+docs/eps/classfile.eps,2
+maven-eclipse.xml,2
+docs/eps/classgen.eps,2
+REPORTING-BUGS,2
+docs/eps/classloader.eps,2
+docs/verifier/conventcfg.bmp,2
+docs/eps/constantpool.eps,2
+docs/verifier/exframe.bmp,2
+docs/eps/il.eps,2
+docs/verifier/justicecfg.bmp,2
+docs/eps/instructions.eps,2
+docs/verifier/VerificationAPI.bmp,2
+docs/eps/javaclass.eps,2
+.classpath,2
+docs/eps/jvm.eps,2
+examples/Mini/MiniParserConstants.java,2
+docs/Faculty.java,2
+examples/Mini/Node.java,2
+docs/HelloWorld.java,2
+examples/Mini/Token.java,2
+docs/manual.ps,2
+lib/Regex.jar,2
+docs/manual.tex,2
+maven.xml,2
+docs/opt,2
+META-INF/MANIFEST.MF,2
+docs/Peephole.java,2
+README,2
+docs/unopt,2
+SECURITY.md,2
+docs/verifier/chap1.bmp,2
+examples/Mini/TokenMgrError.java,2
+src/test/java/org/apache/{commons/bcel6 => bcel}/generic/FieldAnnotationsTestCase.java,1
+xdocs/images/classfile.gif,1
+src/site/xdoc/navigation.xml,1
+src/test/java/org/apache/{commons/bcel6 => bcel}/verifier/VerifierReturnTestCase.java,1
+src/site/{xdoc => resources}/images/bcel-logo.gif,1
+src/test/java/org/apache/{commons/bcel6 => bcel}/verifier/VerifierTestCase.java,1
+src/test/java/org/apache/{commons/bcel6 => bcel}/verifier/tests/TestCreator.java,1
+src/test/java/org/apache/{commons/bcel6 => bcel}/visitors/CounterVisitor.java,1
+src/test/java/org/apache/{commons/bcel6 => bcel}/verifier/tests/TestLegalInvokeStatic01.java,1
+src/test/java/org/apache/bcel/{ => generic}/AnnotationGenTestCase.java,1
+xdocs/images/logo.gif,1
+src/site/{xdoc => resources}/images/il.gif,1
+src/test/java/org/apache/{commons/bcel6 => bcel}/EnumAccessFlagTestCase.java,1
+src/test/java/org/apache/{commons/bcel6 => bcel}/data/CombinedAnnotation.java,1
+src/test/java/org/apache/{commons/bcel6 => bcel}/BCELBenchmark.java,1
+src/site/{xdoc => resources}/images/instructions.gif,1
+src/test/java/org/apache/{commons/bcel6 => bcel}/generic/JDKGenericDumpTestCase.java,1
+src/site/{xdoc => resources}/images/javaclass.gif,1
+src/test/java/org/apache/{commons/bcel6 => bcel}/data/AnnotatedFields.java,1
+src/site/{xdoc => resources}/images/jvm.gif,1
+src/test/java/org/apache/{commons/bcel6 => bcel}/generic/MethodGenTestCase.java,1
+src/site/{xdoc => resources}/images/logo.gif,1
+xdocs/images/il.gif,1
+src/site/{xdoc => resources}/images/classfile.gif,1
+src/test/java/org/apache/{commons/bcel6 => bcel}/data/AnnotationEnumElement.java,1
+src/test/java/org/apache/{commons/bcel6 => bcel}/data/ComplexAnnotatedClass.java,1
+src/site/resources/profile.jacoco,1
+src/test/java/org/apache/{commons/bcel6 => bcel}/AbstractCounterVisitorTestCase.java,1
+src/test/java/org/apache/{commons/bcel6 => bcel}/generic/BranchHandleTestCase.java,1
+src/test/java/org/apache/{commons/bcel6 => bcel}/AbstractTestCase.java,1
+src/test/java/org/apache/commons/bcel6/verifier/tests/TestArrayAccess01.java,1
+src/test/java/org/apache/commons/bcel6/{ => generic}/FieldAnnotationsTestCase.java,1
+src/test/java/org/apache/{commons/bcel6 => bcel}/verifier/tests/TestArrayAccess04Creator.java,1
+src/test/java/org/apache/commons/bcel6/{ => generic}/GeneratingAnnotatedClassesTestCase.java,1
+src/site/xdoc/manual/manual.xml,1
+src/test/java/org/apache/{commons/bcel6 => bcel}/PLSETestCase.java,1
+src/test/java/org/apache/{commons/bcel6 => bcel}/verifier/tests/TestLegalInvokeSpecial01.java,1
+src/test/java/org/apache/{commons/bcel6 => bcel}/AnnotationAccessFlagTestCase.java,1
+src/test/java/org/apache/commons/bcel6/verifier/VerifierReturnTestCase.java,1
+src/test/java/org/apache/{commons/bcel6 => bcel}/NanoTimer.java,1
+src/test/resources/Java8Example.java,1
+src/test/java/org/apache/{commons/bcel6 => bcel}/util/BCELifierTestCase.java,1
+src/test/java/org/apache/{commons/bcel6 => bcel}/verifier/tests/TestLegalInvokeVirtual02.java,1
+src/site/{xdoc => resources}/stylesheets/project.xml,1
+src/test/java/org/apache/{commons/bcel6 => bcel}/data/AnnotatedWithCombinedAnnotation.java,1
+src/test/java/org/apache/{commons/bcel6 => bcel}/data/ComplexAnnotation.java,1
+xdocs/images/classloader.gif,1
+src/site/xdoc/license.xml,1
+xdocs/images/javaclass.gif,1
+src/test/java/org/apache/{commons/bcel6 => bcel}/data/MarkedType.java,1
+src/test/java/org/apache/{commons/bcel6 => bcel}/verifier/tests/TestReturn03Creator.java,1
+src/test/java/org/apache/{commons/bcel6 => bcel}/util/Class2HTMLTestCase.java,1
+src/test/java/org/apache/{commons/bcel6 => bcel}/data/AnonymousClassTest.java,1
+src/test/java/org/apache/commons/bcel6/data/AnnotatedFields.java,1
+src/site/xdoc/manual/bcel-api.xml,1
+src/test/java/org/apache/{commons/bcel6 => bcel}/util/InstructionFinderTest.java,1
+src/test/java/org/apache/{commons/bcel6 => bcel}/verifier/tests/TestArrayAccess03Creator.java,1
+src/test/java/org/apache/commons/bcel6/data/AnnotatedWithEnumClass.java,1
+src/test/java/org/apache/{commons/bcel6 => bcel}/generic/AnnotationGenTestCase.java,1
+src/test/java/org/apache/{commons/bcel6 => bcel}/verifier/AbstractVerifierTestCase.java,1
+src/test/java/org/apache/bcel/generic/{JDKGenericDumpTestCase.java => JdkGenericDumpTestCase.java},1
+src/test/java/org/apache/{commons/bcel6 => bcel}/verifier/tests/TestArray01.java,1
+src/test/java/org/apache/{commons/bcel6 => bcel}/generic/GeneratingAnnotatedClassesTestCase.java,1
+src/site/resources/images/logo.gif,1
+src/test/java/org/apache/{commons/bcel6 => bcel}/AnonymousClassTestCase.java,1
+src/test/java/org/apache/{commons/bcel6 => bcel}/data/MarkerAnnotation.java,1
+src/test/java/org/apache/{commons/bcel6 => bcel}/classfile/JDKClassDumpTestCase.java,1
+src/test/java/org/apache/{commons/bcel6 => bcel}/verifier/tests/TestArrayAccess01.java,1
+src/test/java/org/apache/{commons/bcel6 => bcel}/generic/InstructionHandleTestCase.java,1
+src/test/java/org/apache/commons/bcel6/data/ComplexAnnotatedClass.java,1
+src/site/xdoc/contributors.xml,1
+src/site/{xdoc => resources}/images/constantpool.gif,1
+src/test/java/org/apache/{commons/bcel6 => bcel}/verifier/tests/TestLegalInvokeInterface01.java,1
+src/test/java/org/apache/commons/bcel6/data/MarkedType.java,1
+src/test/java/org/apache/{commons/bcel6 => bcel}/classfile/UtilityTestCase.java,1
+src/site/{xdoc => resources}/images/classloader.gif,1
+src/test/java/org/apache/{commons/bcel6 => bcel}/CounterVisitorTestCase.java,1
+src/test/java/org/apache/{commons/bcel6 => bcel}/PerformanceTest.java,1
+src/test/java/org/apache/commons/bcel6/verifier/VerifierInvokeTestCase.java,1
+src/test/java/org/apache/{commons/bcel6 => bcel}/data/MarkerAnnotationInvisible.java,1
+src/test/java/org/apache/{commons/bcel6 => bcel}/verifier/tests/TestLegalInvokeSpecial02.java,1
+src/test/java/org/apache/commons/bcel6/data/SimpleAnnotatedClass.java,1
+src/test/resources/Java8Example.class,1
+src/site/xdoc/manual/application-areas.xml,1
+src/test/java/org/apache/{commons/bcel6 => bcel}/data/AttributeTestClassEM02.java,1
+src/test/java/org/apache/{commons/bcel6 => bcel}/verifier/tests/TestArrayAccess02Creator.java,1
+src/test/java/org/apache/{commons/bcel6 => bcel}/verifier/tests/TestLegalInvokeVirtual01.java,1
+src/test/java/org/apache/commons/bcel6/data/SimpleEnum.java,1
+src/test/java/org/apache/{commons/bcel6 => bcel}/verifier/tests/TestReturn01Creator.java,1
+src/test/java/org/apache/{commons/bcel6 => bcel}/data/PLSETestClass.java,1
+src/test/java/org/apache/{commons/bcel6 => bcel}/InstructionFinderTestCase.java,1
+src/test/java/org/apache/{commons/bcel6 => bcel}/data/SimpleAnnotatedClass.java,1
+src/test/java/org/apache/{commons/bcel6 => bcel}/verifier/tests/TestReturn02.java,1
+src/test/java/org/apache/{commons/bcel6 => bcel}/data/SimpleAnnotation.java,1
+xdocs/images/classgen.gif,1
+src/test/java/org/apache/{commons/bcel6 => bcel}/data/SimpleClass.java,1
+xdocs/images/constantpool.gif,1
+src/test/java/org/apache/commons/bcel6/GeneratingAnnotatedClassesTestCase.java,1
+xdocs/images/instructions.gif,1
+src/test/java/org/apache/{commons/bcel6 => bcel}/data/SimpleEnum.java,1
+xdocs/images/jvm.gif,1
+src/test/java/org/apache/commons/bcel6/generic/BranchHandleTestCase.java,1
+src/test/java/org/apache/{commons/bcel6 => bcel}/data/AnnotatedWithEnumClass.java,1
+src/test/java/org/apache/commons/bcel6/generic/FieldAnnotationsTestCase.java,1
+src/test/java/org/apache/{commons/bcel6 => bcel}/verifier/VerifierArrayAccessTestCase.java,1
+src/test/java/org/apache/{commons/bcel6 => bcel}/AnnotationDefaultAttributeTestCase.java,1
+src/site/{xdoc => resources}/images/classgen.gif,1
+src/site/resources/profile.clirr,1
+src/test/java/org/apache/{commons/bcel6 => bcel}/data/AttributeTestClassEM01.java,1
+src/test/java/org/apache/{commons/bcel6 => bcel}/ElementValueGenTestCase.java,1
+src/test/java/org/apache/{commons/bcel6 => bcel}/verifier/VerifierInvokeTestCase.java,1
+src/test/java/org/apache/{commons/bcel6 => bcel}/EnclosingMethodAttributeTestCase.java,1
+src/main/java/org/apache/bcel/util/AbstractClassPathRepository.java,1
+src/main/java/org/apache/{commons/bcel6 => bcel}/generic/LMUL.java,1
+src/main/java/org/apache/{commons/bcel6 => bcel}/verifier/structurals/InstructionContext.java,1
+src/main/java/org/apache/{commons/bcel6 => bcel}/generic/LSHR.java,1
+src/main/java/org/apache/{commons/bcel6 => bcel}/verifier/exc/Utility.java,1
+src/main/java/org/apache/{commons/bcel6 => bcel}/verifier/VerifierAppFrame.java,1
+src/main/java/org/apache/{commons/bcel6 => bcel}/verifier/exc/VerificationException.java,1
+src/main/java/org/apache/{commons/bcel6 => bcel}/verifier/statics/Pass3aVerifier.java,1
+src/main/java/org/apache/{commons/bcel6 => bcel}/generic/LSUB.java,1
+src/main/java/org/apache/{commons/bcel6 => bcel}/util/ClassQueue.java,1
+src/main/java/org/apache/{commons/bcel6 => bcel}/verifier/exc/VerifierConstraintViolatedException.java,1
+src/main/java/org/apache/{commons/bcel6 => bcel}/verifier/structurals/Pass3bVerifier.java,1
+src/main/java/org/apache/{commons/bcel6 => bcel}/verifier/GraphicalVerifier.java,1
+src/main/java/org/apache/{commons/bcel6 => bcel}/verifier/VerifyDialog.java,1
+src/main/java/org/apache/{commons/bcel6 => bcel}/verifier/NativeVerifier.java,1
+src/main/java/org/apache/{commons/bcel6 => bcel}/package.html,1
+src/main/java/org/apache/{commons/bcel6 => bcel}/generic/LOOKUPSWITCH.java,1
+src/main/java/org/apache/{commons/bcel6 => bcel}/util/BCELComparator.java,1
+src/main/java/org/apache/{commons/bcel6 => bcel}/generic/LUSHR.java,1
+src/main/java/org/apache/{commons/bcel6 => bcel}/util/ClassLoader.java,1
+src/main/java/org/apache/{commons/bcel6 => bcel}/verifier/package.html,1
+src/main/java/org/apache/{commons/bcel6 => bcel}/util/ClassStack.java,1
+src/main/java/org/apache/{commons/bcel6 => bcel}/verifier/PassVerifier.java,1
+src/main/java/org/apache/{commons/bcel6 => bcel}/verifier/structurals/OperandStack.java,1
+src/main/java/org/apache/{commons/bcel6 => bcel}/generic/LXOR.java,1
+src/main/java/org/apache/{commons/bcel6 => bcel}/verifier/structurals/UninitializedObjectType.java,1
+src/main/java/org/apache/{commons/bcel6 => bcel}/generic/MethodGen.java,1
+src/main/java/org/apache/{commons/bcel6 => bcel}/verifier/VerifierFactory.java,1
+src/main/java/org/apache/{commons/bcel6 => bcel}/generic/MethodObserver.java,1
+src/main/java/org/apache/{commons/bcel6 => bcel}/generic/LDC2_W.java,1
+src/main/java/org/apache/{commons/bcel6 => bcel}/generic/MONITORENTER.java,1
+src/main/java/org/apache/{commons/bcel6 => bcel}/generic/LNEG.java,1
+src/main/java/org/apache/{commons/bcel6 => bcel}/generic/MONITOREXIT.java,1
+src/main/java/org/apache/{commons/bcel6 => bcel}/verifier/statics/Pass2Verifier.java,1
+src/main/java/org/apache/{commons/bcel6 => bcel}/generic/MULTIANEWARRAY.java,1
+src/main/java/org/apache/{commons/bcel6 => bcel}/verifier/structurals/ControlFlowGraph.java,1
+src/main/java/org/apache/{commons/bcel6 => bcel}/generic/NamedAndTyped.java,1
+src/main/java/org/apache/{commons/bcel6 => bcel}/util/BCELifier.java,1
+src/main/java/org/apache/{commons/bcel6 => bcel}/generic/NameSignatureInstruction.java,1
+src/main/java/org/apache/{commons/bcel6 => bcel}/verifier/structurals/ExecutionVisitor.java,1
+src/main/java/org/apache/{commons/bcel6 => bcel}/generic/NEW.java,1
+src/main/java/org/apache/{commons/bcel6 => bcel}/util/ClassPath.java,1
+src/main/java/org/apache/{commons/bcel6 => bcel}/generic/NEWARRAY.java,1
+src/main/java/org/apache/{commons/bcel6 => bcel}/util/ClassSet.java,1
+src/main/java/org/apache/{commons/bcel6 => bcel}/generic/NOP.java,1
+src/main/java/org/apache/{commons/bcel6 => bcel}/util/CodeHTML.java,1
+src/main/java/org/apache/{commons/bcel6 => bcel}/generic/ObjectType.java,1
+src/main/java/org/apache/{commons/bcel6 => bcel}/util/JavaWrapper.java,1
+src/main/java/org/apache/{commons/bcel6 => bcel}/generic/package.html,1
+src/main/java/org/apache/{commons/bcel6 => bcel}/verifier/structurals/package.html,1
+src/main/java/org/apache/{commons/bcel6 => bcel}/generic/POP.java,1
+src/main/java/org/apache/{commons/bcel6 => bcel}/util/Repository.java,1
+src/main/java/org/apache/{commons/bcel6 => bcel}/generic/POP2.java,1
+src/main/java/org/apache/{commons/bcel6 => bcel}/verifier/VerificationResult.java,1
+src/main/java/org/apache/{commons/bcel6 => bcel}/generic/PopInstruction.java,1
+src/main/java/org/apache/{commons/bcel6 => bcel}/verifier/exc/AssertionViolatedException.java,1
+src/main/java/org/apache/{commons/bcel6 => bcel}/generic/PUSH.java,1
+src/main/java/org/apache/{commons/bcel6 => bcel}/verifier/VerifierFactoryListModel.java,1
+src/main/java/org/apache/{commons/bcel6 => bcel}/generic/PushInstruction.java,1
+src/main/java/org/apache/{commons/bcel6 => bcel}/verifier/exc/InvalidMethodException.java,1
+src/main/java/org/apache/{commons/bcel6 => bcel}/generic/PUTFIELD.java,1
+src/main/java/org/apache/{commons/bcel6 => bcel}/generic/LineNumberGen.java,1
+src/main/java/org/apache/{commons/bcel6 => bcel}/generic/PUTSTATIC.java,1
+src/main/java/org/apache/{commons/bcel6 => bcel}/verifier/exc/LocalVariableInfoInconsistentException.java,1
+src/main/java/org/apache/{commons/bcel6 => bcel}/generic/ReferenceType.java,1
+src/main/java/org/apache/{commons/bcel6 => bcel}/generic/LDC.java,1
+src/main/java/org/apache/{commons/bcel6 => bcel}/generic/RET.java,1
+src/main/java/org/apache/{commons/bcel6 => bcel}/Repository.java,1
+src/main/java/org/apache/{commons/bcel6 => bcel}/generic/RETURN.java,1
+src/main/java/org/apache/{commons/bcel6 => bcel}/util/AttributeHTML.java,1
+src/main/java/org/apache/{commons/bcel6 => bcel}/generic/ReturnaddressType.java,1
+src/main/java/org/apache/{commons/bcel6 => bcel}/verifier/statics/StringRepresentation.java,1
+src/main/java/org/apache/{commons/bcel6 => bcel}/verifier/statics/DOUBLE_Upper.java,1
+src/main/java/org/apache/{commons/bcel6 => bcel}/verifier/structurals/ExceptionHandler.java,1
+src/main/java/org/apache/{commons/bcel6 => bcel}/verifier/statics/IntList.java,1
+src/main/java/org/apache/{commons/bcel6 => bcel}/util/BCELFactory.java,1
+src/main/java/org/apache/{commons/bcel6 => bcel}/verifier/exc/StaticCodeConstraintException.java,1
+src/main/java/org/apache/{commons/bcel6 => bcel}/util/ByteSequence.java,1
+src/main/java/org/apache/{commons/bcel6 => bcel}/generic/LOR.java,1
+src/main/java/org/apache/{commons/bcel6 => bcel}/verifier/structurals/ExceptionHandlers.java,1
+src/main/java/org/apache/{commons/bcel6 => bcel}/verifier/statics/LocalVariableInfo.java,1
+src/main/java/org/apache/{commons/bcel6 => bcel}/util/Class2HTML.java,1
+src/main/java/org/apache/{commons/bcel6 => bcel}/generic/LREM.java,1
+src/main/java/org/apache/{commons/bcel6 => bcel}/util/ClassLoaderRepository.java,1
+src/main/java/org/apache/{commons/bcel6 => bcel}/verifier/statics/LocalVariablesInfo.java,1
+src/main/java/org/apache/{commons/bcel6 => bcel}/util/ClassPathRepository.java,1
+src/main/java/org/apache/{commons/bcel6 => bcel}/verifier/statics/LONG_Upper.java,1
+src/main/java/org/apache/{commons/bcel6 => bcel}/verifier/structurals/Frame.java,1
+src/main/java/org/apache/{commons/bcel6 => bcel}/verifier/statics/package.html,1
+src/main/java/org/apache/{commons/bcel6 => bcel}/verifier/structurals/GenericArray.java,1
+src/main/java/org/apache/{commons/bcel6 => bcel}/generic/LSHL.java,1
+src/main/java/org/apache/{commons/bcel6 => bcel}/util/ClassVector.java,1
+src/main/java/org/apache/{commons/bcel6 => bcel}/verifier/statics/Pass1Verifier.java,1
+src/main/java/org/apache/{commons/bcel6 => bcel}/verifier/structurals/InstConstraintVisitor.java,1
+src/main/java/org/apache/{commons/bcel6 => bcel}/verifier/structurals/LocalVariables.java,1
+src/main/java/org/apache/{commons/bcel6 => bcel}/generic/LSTORE.java,1
+src/main/java/org/apache/{commons/bcel6 => bcel}/util/ConstantHTML.java,1
+src/main/java/org/apache/{commons/bcel6 => bcel}/util/InstructionFinder.java,1
+src/main/java/org/apache/{commons/bcel6 => bcel}/generic/ReturnInstruction.java,1
+src/main/java/org/apache/{commons/bcel6 => bcel}/util/MemorySensitiveClassPathRepository.java,1
+src/main/java/org/apache/{commons/bcel6 => bcel}/generic/SALOAD.java,1
+src/main/java/org/apache/{commons/bcel6 => bcel}/util/MethodHTML.java,1
+src/main/java/org/apache/{commons/bcel6 => bcel}/generic/SASTORE.java,1
+src/main/java/org/apache/{commons/bcel6 => bcel}/util/package.html,1
+src/main/java/org/apache/{commons/bcel6 => bcel}/generic/Select.java,1
+src/main/java/org/apache/{commons/bcel6 => bcel}/verifier/structurals/Subroutine.java,1
+src/main/java/org/apache/{commons/bcel6 => bcel}/generic/SimpleElementValueGen.java,1
+src/main/java/org/apache/{commons/bcel6 => bcel}/verifier/structurals/Subroutines.java,1
+src/main/java/org/apache/{commons/bcel6 => bcel}/generic/SIPUSH.java,1
+src/main/java/org/apache/{commons/bcel6 => bcel}/verifier/TransitiveHull.java,1
+src/main/java/org/apache/{commons/bcel6 => bcel}/generic/StackConsumer.java,1
+src/main/java/org/apache/{commons/bcel6 => bcel}/verifier/Verifier.java,1
+src/main/java/org/apache/{commons/bcel6 => bcel}/generic/StackInstruction.java,1
+src/main/java/org/apache/{commons/bcel6 => bcel}/util/SyntheticRepository.java,1
+src/main/java/org/apache/{commons/bcel6 => bcel}/generic/StackProducer.java,1
+src/main/java/org/apache/{commons/bcel6 => bcel}/verifier/exc/ClassConstraintException.java,1
+src/main/java/org/apache/{commons/bcel6 => bcel}/generic/StoreInstruction.java,1
+src/main/java/org/apache/{commons/bcel6 => bcel}/verifier/exc/CodeConstraintException.java,1
+src/main/java/org/apache/{commons/bcel6 => bcel}/generic/SWAP.java,1
+src/main/java/org/apache/{commons/bcel6 => bcel}/verifier/VerifierFactoryObserver.java,1
+src/main/java/org/apache/{commons/bcel6 => bcel}/generic/SWITCH.java,1
+src/main/java/org/apache/{commons/bcel6 => bcel}/verifier/exc/StaticCodeInstructionConstraintException.java,1
+src/main/java/org/apache/{commons/bcel6 => bcel}/generic/TABLESWITCH.java,1
+src/main/java/org/apache/{commons/bcel6 => bcel}/generic/LDC_W.java,1
+src/main/java/org/apache/{commons/bcel6 => bcel}/generic/TargetLostException.java,1
+src/main/java/org/apache/{commons/bcel6 => bcel}/generic/LDIV.java,1
+src/main/java/org/apache/{commons/bcel6 => bcel}/generic/Type.java,1
+src/main/java/org/apache/{commons/bcel6 => bcel}/generic/LLOAD.java,1
+src/main/java/org/apache/{commons/bcel6 => bcel}/verifier/exc/StaticCodeInstructionOperandConstraintException.java,1
+src/main/java/org/apache/{commons/bcel6 => bcel}/verifier/exc/StructuralCodeConstraintException.java,1
+src/main/java/org/apache/{commons/bcel6 => bcel}/verifier/exc/LinkingConstraintException.java,1
+src/main/java/org/apache/{commons/bcel6 => bcel}/generic/TypedInstruction.java,1
+src/main/java/org/apache/{commons/bcel6 => bcel}/verifier/exc/LoadingException.java,1
+src/main/java/org/apache/{commons/bcel6 => bcel}/generic/UnconditionalBranch.java,1
+src/main/java/org/apache/{commons/bcel6 => bcel}/verifier/exc/package.html,1
+src/main/java/org/apache/{commons/bcel6 => bcel}/generic/LoadInstruction.java,1
+src/main/java/org/apache/{commons/bcel6 => bcel}/generic/LoadClass.java,1
+src/main/java/org/apache/{commons/bcel6 => bcel}/generic/LocalVariableGen.java,1
+src/main/java/org/apache/{commons/bcel6 => bcel}/generic/LRETURN.java,1
+src/main/java/org/apache/{commons/bcel6 => bcel}/generic/Visitor.java,1
+src/main/java/org/apache/{commons/bcel6 => bcel}/generic/LocalVariableInstruction.java,1
+src/main/java/org/apache/{commons/bcel6 => bcel}/generic/VariableLengthInstruction.java,1
+src/main/java/org/apache/{commons/bcel6 => bcel}/generic/DUP_X2.java,1
+src/main/java/org/apache/{commons/bcel6 => bcel}/generic/IFNULL.java,1
+src/main/java/org/apache/{commons/bcel6 => bcel}/generic/GETSTATIC.java,1
+src/main/java/org/apache/{bcel => commons/bcel6}/generic/package.html,1
+src/main/java/org/apache/{commons/bcel6 => bcel}/generic/IXOR.java,1
+src/main/java/org/apache/{bcel => commons/bcel6}/package.html,1
+src/main/java/org/apache/{commons/bcel6 => bcel}/generic/FCMPL.java,1
+src/main/java/org/apache/{bcel => commons/bcel6}/util/package.html,1
+src/main/java/org/apache/{commons/bcel6 => bcel}/generic/IF_ACMPEQ.java,1
+src/main/java/org/apache/{bcel => commons/bcel6}/verifier/exc/package.html,1
+src/main/java/org/apache/{commons/bcel6 => bcel}/generic/InstructionListObserver.java,1
+src/main/java/org/apache/{bcel => commons/bcel6}/verifier/package.html,1
+src/main/java/org/apache/{commons/bcel6 => bcel}/generic/DMUL.java,1
+src/main/java/org/apache/{bcel => commons/bcel6}/verifier/statics/package.html,1
+src/main/java/org/apache/{commons/bcel6 => bcel}/generic/ExceptionThrower.java,1
+src/main/java/org/apache/{bcel => commons/bcel6}/verifier/structurals/package.html,1
+src/main/java/org/apache/{commons/bcel6 => bcel}/generic/FLOAD.java,1
+src/main/java/org/apache/{commons/bcel6 => bcel}/classfile/AccessFlags.java,1
+src/main/java/org/apache/{commons/bcel6 => bcel}/generic/I2L.java,1
+src/main/java/org/apache/{commons/bcel6 => bcel}/classfile/AnnotationDefault.java,1
+src/main/java/org/apache/{commons/bcel6 => bcel}/generic/IFEQ.java,1
+src/main/java/org/apache/{commons/bcel6 => bcel}/classfile/AnnotationElementValue.java,1
+src/main/java/org/apache/{commons/bcel6 => bcel}/generic/INSTANCEOF.java,1
+src/main/java/org/apache/{commons/bcel6 => bcel}/classfile/AnnotationEntry.java,1
+src/main/java/org/apache/{commons/bcel6 => bcel}/generic/IOR.java,1
+src/main/java/org/apache/{commons/bcel6 => bcel}/classfile/Annotations.java,1
+src/main/java/org/apache/{commons/bcel6 => bcel}/generic/LALOAD.java,1
+src/main/java/org/apache/{commons/bcel6 => bcel}/classfile/ArrayElementValue.java,1
+src/main/java/org/apache/{commons/bcel6 => bcel}/generic/DSTORE.java,1
+src/main/java/org/apache/{commons/bcel6 => bcel}/classfile/Attribute.java,1
+src/main/java/org/apache/{commons/bcel6 => bcel}/generic/ElementValueGen.java,1
+src/main/java/org/apache/{commons/bcel6 => bcel}/classfile/AttributeReader.java,1
+src/main/java/org/apache/{commons/bcel6 => bcel}/generic/FADD.java,1
+src/main/java/org/apache/{commons/bcel6 => bcel}/classfile/BootstrapMethod.java,1
+src/main/java/org/apache/{commons/bcel6 => bcel}/generic/FieldGenOrMethodGen.java,1
+src/main/java/org/apache/{commons/bcel6 => bcel}/classfile/BootstrapMethods.java,1
+src/main/java/org/apache/{commons/bcel6 => bcel}/generic/FRETURN.java,1
+src/main/java/org/apache/{commons/bcel6 => bcel}/classfile/ClassElementValue.java,1
+src/main/java/org/apache/{commons/bcel6 => bcel}/generic/I2B.java,1
+src/main/java/org/apache/{commons/bcel6 => bcel}/classfile/ClassFormatException.java,1
+src/main/java/org/apache/{commons/bcel6 => bcel}/generic/IAND.java,1
+src/main/java/org/apache/{commons/bcel6 => bcel}/classfile/ClassParser.java,1
+src/main/java/org/apache/{commons/bcel6 => bcel}/generic/IF_ICMPGT.java,1
+src/main/java/org/apache/{commons/bcel6 => bcel}/classfile/Code.java,1
+src/main/java/org/apache/{commons/bcel6 => bcel}/generic/IFLE.java,1
+src/main/java/org/apache/{commons/bcel6 => bcel}/classfile/CodeException.java,1
+src/main/java/org/apache/{commons/bcel6 => bcel}/generic/IMPDEP2.java,1
+src/main/java/org/apache/{commons/bcel6 => bcel}/classfile/Constant.java,1
+src/main/java/org/apache/{commons/bcel6 => bcel}/generic/InstructionConstants.java,1
+src/main/java/org/apache/{commons/bcel6 => bcel}/classfile/ConstantClass.java,1
+src/main/java/org/apache/{commons/bcel6 => bcel}/generic/INVOKEINTERFACE.java,1
+src/main/java/org/apache/{commons/bcel6 => bcel}/classfile/ConstantCP.java,1
+src/main/java/org/apache/{commons/bcel6 => bcel}/generic/ISHR.java,1
+src/main/java/org/apache/{commons/bcel6 => bcel}/classfile/ConstantDouble.java,1
+src/main/java/org/apache/{commons/bcel6 => bcel}/generic/L2D.java,1
+src/main/java/org/apache/{commons/bcel6 => bcel}/classfile/ConstantFieldref.java,1
+src/main/java/org/apache/{commons/bcel6 => bcel}/generic/DDIV.java,1
+src/main/java/org/apache/{commons/bcel6 => bcel}/classfile/ConstantFloat.java,1
+src/main/java/org/apache/{commons/bcel6 => bcel}/generic/DREM.java,1
+src/main/java/org/apache/{commons/bcel6 => bcel}/classfile/ConstantInteger.java,1
+src/main/java/org/apache/{commons/bcel6 => bcel}/generic/DUP.java,1
+src/main/java/org/apache/{commons/bcel6 => bcel}/classfile/ConstantInterfaceMethodref.java,1
+src/main/java/org/apache/{commons/bcel6 => bcel}/generic/DUP2_X1.java,1
+src/main/java/org/apache/{commons/bcel6 => bcel}/classfile/ConstantInvokeDynamic.java,1
+src/main/java/org/apache/{commons/bcel6 => bcel}/generic/EmptyVisitor.java,1
+src/main/java/org/apache/{commons/bcel6 => bcel}/classfile/ConstantLong.java,1
+src/main/java/org/apache/{commons/bcel6 => bcel}/generic/F2I.java,1
+src/main/java/org/apache/{commons/bcel6 => bcel}/classfile/ConstantMethodHandle.java,1
+src/main/java/org/apache/{commons/bcel6 => bcel}/generic/FASTORE.java,1
+src/main/java/org/apache/{commons/bcel6 => bcel}/classfile/ConstantMethodref.java,1
+src/main/java/org/apache/{commons/bcel6 => bcel}/generic/FDIV.java,1
+src/main/java/org/apache/{commons/bcel6 => bcel}/classfile/ConstantMethodType.java,1
+src/main/java/org/apache/{commons/bcel6 => bcel}/generic/FieldObserver.java,1
+src/main/java/org/apache/{commons/bcel6 => bcel}/classfile/ConstantNameAndType.java,1
+src/main/java/org/apache/{commons/bcel6 => bcel}/generic/FNEG.java,1
+src/main/java/org/apache/{commons/bcel6 => bcel}/classfile/ConstantObject.java,1
+src/main/java/org/apache/{commons/bcel6 => bcel}/generic/FSUB.java,1
+src/main/java/org/apache/{commons/bcel6 => bcel}/classfile/ConstantPool.java,1
+src/main/java/org/apache/{commons/bcel6 => bcel}/generic/GOTO_W.java,1
+src/main/java/org/apache/{commons/bcel6 => bcel}/classfile/ConstantString.java,1
+src/main/java/org/apache/{commons/bcel6 => bcel}/generic/I2D.java,1
+src/main/java/org/apache/{commons/bcel6 => bcel}/classfile/ConstantUtf8.java,1
+src/main/java/org/apache/{commons/bcel6 => bcel}/generic/IADD.java,1
+src/main/java/org/apache/{commons/bcel6 => bcel}/classfile/ConstantValue.java,1
+src/main/java/org/apache/{commons/bcel6 => bcel}/generic/ICONST.java,1
+src/main/java/org/apache/{commons/bcel6 => bcel}/classfile/Deprecated.java,1
+src/main/java/org/apache/{commons/bcel6 => bcel}/generic/IF_ICMPEQ.java,1
+src/main/java/org/apache/{commons/bcel6 => bcel}/classfile/DescendingVisitor.java,1
+src/main/java/org/apache/{commons/bcel6 => bcel}/generic/IF_ICMPLT.java,1
+src/main/java/org/apache/{commons/bcel6 => bcel}/classfile/ElementValue.java,1
+src/main/java/org/apache/{commons/bcel6 => bcel}/generic/IFGT.java,1
+src/main/java/org/apache/{commons/bcel6 => bcel}/classfile/ElementValuePair.java,1
+src/main/java/org/apache/{commons/bcel6 => bcel}/generic/IFNE.java,1
+src/main/java/org/apache/{commons/bcel6 => bcel}/classfile/EmptyVisitor.java,1
+src/main/java/org/apache/{commons/bcel6 => bcel}/generic/ILOAD.java,1
+src/main/java/org/apache/{commons/bcel6 => bcel}/classfile/EnclosingMethod.java,1
+src/main/java/org/apache/{commons/bcel6 => bcel}/generic/IndexedInstruction.java,1
+src/main/java/org/apache/{commons/bcel6 => bcel}/classfile/EnumElementValue.java,1
+src/main/java/org/apache/{commons/bcel6 => bcel}/generic/InstructionComparator.java,1
+src/main/java/org/apache/{commons/bcel6 => bcel}/classfile/ExceptionTable.java,1
+src/main/java/org/apache/{commons/bcel6 => bcel}/generic/InstructionHandle.java,1
+src/main/java/org/apache/{commons/bcel6 => bcel}/generic/LASTORE.java,1
+src/main/java/org/apache/{commons/bcel6 => bcel}/generic/INVOKEDYNAMIC.java,1
+src/main/java/org/apache/{commons/bcel6 => bcel}/generic/CompoundInstruction.java,1
+src/main/java/org/apache/{commons/bcel6 => bcel}/generic/INVOKESTATIC.java,1
+src/main/java/org/apache/{commons/bcel6 => bcel}/generic/ConstantPushInstruction.java,1
+src/main/java/org/apache/{commons/bcel6 => bcel}/generic/IRETURN.java,1
+src/main/java/org/apache/{commons/bcel6 => bcel}/generic/CPInstruction.java,1
+src/main/java/org/apache/{commons/bcel6 => bcel}/generic/ISUB.java,1
+src/main/java/org/apache/{commons/bcel6 => bcel}/generic/D2I.java,1
+src/main/java/org/apache/{commons/bcel6 => bcel}/generic/JSR_W.java,1
+src/main/java/org/apache/{commons/bcel6 => bcel}/generic/DADD.java,1
+src/main/java/org/apache/{commons/bcel6 => bcel}/generic/L2I.java,1
+src/main/java/org/apache/{commons/bcel6 => bcel}/generic/DASTORE.java,1
+src/main/java/org/apache/{bcel => commons/bcel6}/classfile/package.html,1
+src/main/java/org/apache/{commons/bcel6 => bcel}/generic/DCMPL.java,1
+src/main/java/org/apache/{commons/bcel6 => bcel}/classfile/Field.java,1
+src/main/java/org/apache/{commons/bcel6 => bcel}/generic/ConstantPoolGen.java,1
+src/main/java/org/apache/{commons/bcel6 => bcel}/classfile/FieldOrMethod.java,1
+src/main/java/org/apache/{commons/bcel6 => bcel}/generic/ConversionInstruction.java,1
+src/main/java/org/apache/{commons/bcel6 => bcel}/classfile/InnerClass.java,1
+src/main/java/org/apache/{commons/bcel6 => bcel}/generic/D2F.java,1
+src/main/java/org/apache/{commons/bcel6 => bcel}/classfile/InnerClasses.java,1
+src/main/java/org/apache/{commons/bcel6 => bcel}/generic/D2L.java,1
+src/main/java/org/apache/{commons/bcel6 => bcel}/classfile/JavaClass.java,1
+src/main/java/org/apache/{commons/bcel6 => bcel}/generic/DALOAD.java,1
+src/main/java/org/apache/{commons/bcel6 => bcel}/classfile/LineNumber.java,1
+src/main/java/org/apache/{commons/bcel6 => bcel}/generic/DCMPG.java,1
+src/main/java/org/apache/{commons/bcel6 => bcel}/classfile/LineNumberTable.java,1
+src/main/java/org/apache/{commons/bcel6 => bcel}/generic/DCONST.java,1
+src/main/java/org/apache/{commons/bcel6 => bcel}/classfile/LocalVariable.java,1
+src/main/java/org/apache/{commons/bcel6 => bcel}/generic/DLOAD.java,1
+src/main/java/org/apache/{commons/bcel6 => bcel}/classfile/LocalVariableTable.java,1
+src/main/java/org/apache/{commons/bcel6 => bcel}/generic/DNEG.java,1
+src/main/java/org/apache/{commons/bcel6 => bcel}/classfile/LocalVariableTypeTable.java,1
+src/main/java/org/apache/{commons/bcel6 => bcel}/generic/DRETURN.java,1
+src/main/java/org/apache/{commons/bcel6 => bcel}/classfile/Method.java,1
+src/main/java/org/apache/{commons/bcel6 => bcel}/generic/DSUB.java,1
+src/main/java/org/apache/{commons/bcel6 => bcel}/classfile/MethodParameter.java,1
+src/main/java/org/apache/{commons/bcel6 => bcel}/generic/DUP_X1.java,1
+src/main/java/org/apache/{commons/bcel6 => bcel}/classfile/MethodParameters.java,1
+src/main/java/org/apache/{commons/bcel6 => bcel}/generic/DUP2.java,1
+src/main/java/org/apache/{commons/bcel6 => bcel}/classfile/Node.java,1
+src/main/java/org/apache/{commons/bcel6 => bcel}/generic/DUP2_X2.java,1
+src/main/java/org/apache/{commons/bcel6 => bcel}/classfile/package.html,1
+src/main/java/org/apache/{commons/bcel6 => bcel}/generic/ElementValuePairGen.java,1
+src/main/java/org/apache/{commons/bcel6 => bcel}/classfile/ParameterAnnotationEntry.java,1
+src/main/java/org/apache/{commons/bcel6 => bcel}/generic/EnumElementValueGen.java,1
+src/main/java/org/apache/{commons/bcel6 => bcel}/classfile/ParameterAnnotations.java,1
+src/main/java/org/apache/{commons/bcel6 => bcel}/generic/F2D.java,1
+src/main/java/org/apache/{commons/bcel6 => bcel}/classfile/PMGClass.java,1
+src/main/java/org/apache/{commons/bcel6 => bcel}/generic/F2L.java,1
+src/main/java/org/apache/{commons/bcel6 => bcel}/classfile/RuntimeInvisibleAnnotations.java,1
+src/main/java/org/apache/{commons/bcel6 => bcel}/generic/FALOAD.java,1
+src/main/java/org/apache/{commons/bcel6 => bcel}/classfile/RuntimeInvisibleParameterAnnotations.java,1
+src/main/java/org/apache/{commons/bcel6 => bcel}/generic/FCMPG.java,1
+src/main/java/org/apache/{commons/bcel6 => bcel}/classfile/RuntimeVisibleAnnotations.java,1
+src/main/java/org/apache/{commons/bcel6 => bcel}/generic/FCONST.java,1
+src/main/java/org/apache/{commons/bcel6 => bcel}/classfile/RuntimeVisibleParameterAnnotations.java,1
+src/main/java/org/apache/{commons/bcel6 => bcel}/generic/FieldGen.java,1
+src/main/java/org/apache/{commons/bcel6 => bcel}/classfile/Signature.java,1
+src/main/java/org/apache/{commons/bcel6 => bcel}/generic/FieldInstruction.java,1
+src/main/java/org/apache/{commons/bcel6 => bcel}/classfile/SimpleElementValue.java,1
+src/main/java/org/apache/{commons/bcel6 => bcel}/generic/FieldOrMethod.java,1
+src/main/java/org/apache/{commons/bcel6 => bcel}/classfile/SourceFile.java,1
+src/main/java/org/apache/{commons/bcel6 => bcel}/generic/FMUL.java,1
+src/main/java/org/apache/{commons/bcel6 => bcel}/classfile/StackMap.java,1
+src/main/java/org/apache/{commons/bcel6 => bcel}/generic/FREM.java,1
+src/main/java/org/apache/{commons/bcel6 => bcel}/classfile/StackMapEntry.java,1
+src/main/java/org/apache/{commons/bcel6 => bcel}/generic/FSTORE.java,1
+src/main/java/org/apache/{commons/bcel6 => bcel}/classfile/StackMapType.java,1
+src/main/java/org/apache/{commons/bcel6 => bcel}/generic/GETFIELD.java,1
+src/main/java/org/apache/{commons/bcel6 => bcel}/classfile/Synthetic.java,1
+src/main/java/org/apache/{commons/bcel6 => bcel}/generic/GOTO.java,1
+src/main/java/org/apache/{commons/bcel6 => bcel}/classfile/Unknown.java,1
+src/main/java/org/apache/{commons/bcel6 => bcel}/generic/GotoInstruction.java,1
+src/main/java/org/apache/{commons/bcel6 => bcel}/classfile/UnknownAttributeReader.java,1
+src/main/java/org/apache/{commons/bcel6 => bcel}/generic/I2C.java,1
+src/main/java/org/apache/{commons/bcel6 => bcel}/classfile/Utility.java,1
+src/main/java/org/apache/{commons/bcel6 => bcel}/generic/I2F.java,1
+src/main/java/org/apache/{commons/bcel6 => bcel}/classfile/Visitor.java,1
+src/main/java/org/apache/{commons/bcel6 => bcel}/generic/I2S.java,1
+src/main/java/org/apache/{commons/bcel6 => bcel}/Const.java,1
+src/main/java/org/apache/{commons/bcel6 => bcel}/generic/IALOAD.java,1
+src/main/java/org/apache/{commons/bcel6 => bcel}/Constants.java,1
+src/main/java/org/apache/{commons/bcel6 => bcel}/generic/IASTORE.java,1
+src/main/java/org/apache/{commons/bcel6 => bcel}/ExceptionConst.java,1
+src/main/java/org/apache/{commons/bcel6 => bcel}/generic/IDIV.java,1
+src/main/java/org/apache/{commons/bcel6 => bcel}/ExceptionConstants.java,1
+src/main/java/org/apache/{commons/bcel6 => bcel}/generic/IF_ACMPNE.java,1
+src/main/java/org/apache/{commons/bcel6 => bcel}/generic/AALOAD.java,1
+src/main/java/org/apache/{commons/bcel6 => bcel}/generic/IF_ICMPGE.java,1
+src/main/java/org/apache/{commons/bcel6 => bcel}/generic/AASTORE.java,1
+src/main/java/org/apache/{commons/bcel6 => bcel}/generic/IF_ICMPLE.java,1
+src/main/java/org/apache/{commons/bcel6 => bcel}/generic/ACONST_NULL.java,1
+src/main/java/org/apache/{commons/bcel6 => bcel}/generic/IF_ICMPNE.java,1
+src/main/java/org/apache/{commons/bcel6 => bcel}/generic/AllocationInstruction.java,1
+src/main/java/org/apache/{commons/bcel6 => bcel}/generic/IFGE.java,1
+src/main/java/org/apache/{commons/bcel6 => bcel}/generic/ALOAD.java,1
+src/main/java/org/apache/{commons/bcel6 => bcel}/generic/IfInstruction.java,1
+src/main/java/org/apache/{commons/bcel6 => bcel}/generic/ANEWARRAY.java,1
+src/main/java/org/apache/{commons/bcel6 => bcel}/generic/IFLT.java,1
+src/main/java/org/apache/{commons/bcel6 => bcel}/generic/AnnotationElementValueGen.java,1
+src/main/java/org/apache/{commons/bcel6 => bcel}/generic/IFNONNULL.java,1
+src/main/java/org/apache/{commons/bcel6 => bcel}/generic/AnnotationEntryGen.java,1
+src/main/java/org/apache/{commons/bcel6 => bcel}/generic/IINC.java,1
+src/main/java/org/apache/{commons/bcel6 => bcel}/generic/ARETURN.java,1
+src/main/java/org/apache/{commons/bcel6 => bcel}/generic/IMPDEP1.java,1
+src/main/java/org/apache/{commons/bcel6 => bcel}/generic/ArithmeticInstruction.java,1
+src/main/java/org/apache/{commons/bcel6 => bcel}/generic/IMUL.java,1
+src/main/java/org/apache/{commons/bcel6 => bcel}/generic/ArrayElementValueGen.java,1
+src/main/java/org/apache/{commons/bcel6 => bcel}/generic/INEG.java,1
+src/main/java/org/apache/{commons/bcel6 => bcel}/generic/LCONST.java,1
+src/main/java/org/apache/{commons/bcel6 => bcel}/generic/Instruction.java,1
+src/main/java/org/apache/{commons/bcel6 => bcel}/generic/ARRAYLENGTH.java,1
+src/main/java/org/apache/{commons/bcel6 => bcel}/generic/InstructionConst.java,1
+src/main/java/org/apache/{commons/bcel6 => bcel}/generic/ArrayType.java,1
+src/main/java/org/apache/{commons/bcel6 => bcel}/generic/InstructionFactory.java,1
+src/main/java/org/apache/{commons/bcel6 => bcel}/generic/ASTORE.java,1
+src/main/java/org/apache/{commons/bcel6 => bcel}/generic/InstructionList.java,1
+src/main/java/org/apache/{commons/bcel6 => bcel}/generic/ATHROW.java,1
+src/main/java/org/apache/{commons/bcel6 => bcel}/generic/InstructionTargeter.java,1
+src/main/java/org/apache/{commons/bcel6 => bcel}/generic/BALOAD.java,1
+src/main/java/org/apache/{commons/bcel6 => bcel}/generic/InvokeInstruction.java,1
+src/main/java/org/apache/{commons/bcel6 => bcel}/generic/BasicType.java,1
+src/main/java/org/apache/{commons/bcel6 => bcel}/generic/INVOKESPECIAL.java,1
+src/main/java/org/apache/{commons/bcel6 => bcel}/generic/BASTORE.java,1
+src/main/java/org/apache/{commons/bcel6 => bcel}/generic/INVOKEVIRTUAL.java,1
+src/main/java/org/apache/{commons/bcel6 => bcel}/generic/BIPUSH.java,1
+src/main/java/org/apache/{commons/bcel6 => bcel}/generic/IREM.java,1
+src/main/java/org/apache/{commons/bcel6 => bcel}/generic/BranchHandle.java,1
+src/main/java/org/apache/{commons/bcel6 => bcel}/generic/ISHL.java,1
+src/main/java/org/apache/{commons/bcel6 => bcel}/generic/BranchInstruction.java,1
+src/main/java/org/apache/{commons/bcel6 => bcel}/generic/ISTORE.java,1
+src/main/java/org/apache/{commons/bcel6 => bcel}/generic/BREAKPOINT.java,1
+src/main/java/org/apache/{commons/bcel6 => bcel}/generic/IUSHR.java,1
+src/main/java/org/apache/{commons/bcel6 => bcel}/generic/CALOAD.java,1
+src/main/java/org/apache/{commons/bcel6 => bcel}/generic/JSR.java,1
+src/main/java/org/apache/{commons/bcel6 => bcel}/generic/CASTORE.java,1
+src/main/java/org/apache/{commons/bcel6 => bcel}/generic/JsrInstruction.java,1
+src/main/java/org/apache/{commons/bcel6 => bcel}/generic/CHECKCAST.java,1
+src/main/java/org/apache/{commons/bcel6 => bcel}/generic/L2F.java,1
+src/main/java/org/apache/{commons/bcel6 => bcel}/generic/ClassElementValueGen.java,1
+src/main/java/org/apache/{commons/bcel6 => bcel}/generic/LADD.java,1
+src/main/java/org/apache/{commons/bcel6 => bcel}/generic/ClassGen.java,1
+src/main/java/org/apache/{commons/bcel6 => bcel}/generic/LAND.java,1
+src/main/java/org/apache/{commons/bcel6 => bcel}/generic/ClassGenException.java,1
+src/main/java/org/apache/{commons/bcel6 => bcel}/generic/LCMP.java,1
+src/main/java/org/apache/{commons/bcel6 => bcel}/generic/ClassObserver.java,1
+src/main/java/org/apache/{commons/bcel6 => bcel}/generic/CodeExceptionGen.java,1
+src/main/java/org/apache/{commons/bcel6 => bcel}/generic/ArrayInstruction.java,1
+src/java/org/apache/bcel/classfile/package.html,1
+src/java/org/apache/bcel/generic/package.html,1
+src/{ => main}/java/org/apache/bcel/generic/SWAP.java,1
+src/{ => main}/java/org/apache/bcel/verifier/structurals/ExecutionVisitor.java,1
+src/{ => main}/java/org/apache/bcel/verifier/exc/AssertionViolatedException.java,1
+src/{ => main}/java/org/apache/bcel/generic/GOTO_W.java,1
+src/{ => main}/java/org/apache/bcel/generic/DCMPG.java,1
+src/{ => main}/java/org/apache/bcel/generic/GotoInstruction.java,1
+src/{ => main}/java/org/apache/bcel/util/Class2HTML.java,1
+src/{ => main}/java/org/apache/bcel/generic/I2B.java,1
+src/{ => main}/java/org/apache/bcel/verifier/NativeVerifier.java,1
+src/{ => main}/java/org/apache/bcel/generic/I2C.java,1
+src/{ => main}/java/org/apache/bcel/verifier/VerifierFactory.java,1
+src/{ => main}/java/org/apache/bcel/generic/I2D.java,1
+src/{ => main}/java/org/apache/bcel/generic/SALOAD.java,1
+src/{ => main}/java/org/apache/bcel/generic/I2F.java,1
+src/{ => main}/java/org/apache/bcel/generic/Visitor.java,1
+src/{ => main}/java/org/apache/bcel/generic/I2L.java,1
+src/{ => main}/java/org/apache/bcel/util/CodeHTML.java,1
+src/{ => main}/java/org/apache/bcel/generic/I2S.java,1
+src/{ => main}/java/org/apache/bcel/verifier/exc/StaticCodeConstraintException.java,1
+src/{ => main}/java/org/apache/bcel/generic/IADD.java,1
+src/{ => main}/java/org/apache/bcel/verifier/statics/package.html,1
+src/{ => main}/java/org/apache/bcel/generic/IALOAD.java,1
+src/{ => main}/java/org/apache/bcel/verifier/structurals/Pass3bVerifier.java,1
+src/{ => main}/java/org/apache/bcel/generic/IAND.java,1
+src/{ => main}/java/org/apache/bcel/generic/FieldObserver.java,1
+src/{ => main}/java/org/apache/bcel/generic/IASTORE.java,1
+src/{ => main}/java/org/apache/bcel/generic/DUP2.java,1
+src/{ => main}/java/org/apache/bcel/generic/ICONST.java,1
+src/{ => main}/java/org/apache/bcel/generic/StackConsumer.java,1
+src/{ => main}/java/org/apache/bcel/generic/IDIV.java,1
+src/{ => main}/java/org/apache/bcel/generic/Type.java,1
+src/{ => main}/java/org/apache/bcel/generic/IF_ACMPEQ.java,1
+src/{ => main}/java/org/apache/bcel/util/BCELComparator.java,1
+src/{ => main}/java/org/apache/bcel/generic/IF_ACMPNE.java,1
+src/{ => main}/java/org/apache/bcel/util/ClassQueue.java,1
+src/{ => main}/java/org/apache/bcel/generic/IF_ICMPEQ.java,1
+src/{ => main}/java/org/apache/bcel/util/MethodHTML.java,1
+src/{ => main}/java/org/apache/bcel/generic/IF_ICMPGE.java,1
+src/{ => main}/java/org/apache/bcel/verifier/exc/LinkingConstraintException.java,1
+src/{ => main}/java/org/apache/bcel/generic/IF_ICMPGT.java,1
+src/{ => main}/java/org/apache/bcel/verifier/exc/Utility.java,1
+src/{ => main}/java/org/apache/bcel/generic/IF_ICMPLE.java,1
+src/{ => main}/java/org/apache/bcel/verifier/statics/IntList.java,1
+src/{ => main}/java/org/apache/bcel/generic/IF_ICMPLT.java,1
+src/{ => main}/java/org/apache/bcel/verifier/statics/StringRepresentation.java,1
+src/{ => main}/java/org/apache/bcel/generic/IF_ICMPNE.java,1
+src/{ => main}/java/org/apache/bcel/verifier/structurals/InstructionContext.java,1
+src/{ => main}/java/org/apache/bcel/generic/IFEQ.java,1
+src/{ => main}/java/org/apache/bcel/verifier/TransitiveHull.java,1
+src/{ => main}/java/org/apache/bcel/generic/IFGE.java,1
+src/{ => main}/java/org/apache/bcel/generic/FSTORE.java,1
+src/{ => main}/java/org/apache/bcel/generic/IFGT.java,1
+src/{ => main}/java/org/apache/bcel/generic/DUP.java,1
+src/{ => main}/java/org/apache/bcel/generic/IfInstruction.java,1
+src/{ => main}/java/org/apache/bcel/generic/FieldOrMethod.java,1
+src/{ => main}/java/org/apache/bcel/generic/IFLE.java,1
+src/{ => main}/java/org/apache/bcel/generic/FLOAD.java,1
+src/{ => main}/java/org/apache/bcel/generic/IFLT.java,1
+src/{ => main}/java/org/apache/bcel/generic/Select.java,1
+src/{ => main}/java/org/apache/bcel/generic/IFNE.java,1
+src/{ => main}/java/org/apache/bcel/generic/StackProducer.java,1
+src/{ => main}/java/org/apache/bcel/generic/IFNONNULL.java,1
+src/{ => main}/java/org/apache/bcel/generic/TABLESWITCH.java,1
+src/{ => main}/java/org/apache/bcel/generic/IFNULL.java,1
+src/{ => main}/java/org/apache/bcel/generic/UnconditionalBranch.java,1
+src/{ => main}/java/org/apache/bcel/generic/IINC.java,1
+src/{ => main}/java/org/apache/bcel/Repository.java,1
+src/{ => main}/java/org/apache/bcel/generic/ILOAD.java,1
+src/{ => main}/java/org/apache/bcel/util/BCELifier.java,1
+src/{ => main}/java/org/apache/bcel/generic/IMPDEP1.java,1
+src/{ => main}/java/org/apache/bcel/util/ClassLoaderRepository.java,1
+src/{ => main}/java/org/apache/bcel/generic/IMPDEP2.java,1
+src/{ => main}/java/org/apache/bcel/util/ClassStack.java,1
+src/{ => main}/java/org/apache/bcel/generic/IMUL.java,1
+src/{ => main}/java/org/apache/bcel/util/InstructionFinder.java,1
+src/{ => main}/java/org/apache/bcel/generic/IndexedInstruction.java,1
+src/{ => main}/java/org/apache/bcel/util/Repository.java,1
+src/{ => main}/java/org/apache/bcel/generic/INEG.java,1
+src/{ => main}/java/org/apache/bcel/verifier/exc/CodeConstraintException.java,1
+src/{ => main}/java/org/apache/bcel/generic/INSTANCEOF.java,1
+src/{ => main}/java/org/apache/bcel/verifier/exc/LocalVariableInfoInconsistentException.java,1
+src/{ => main}/java/org/apache/bcel/generic/Instruction.java,1
+src/{ => main}/java/org/apache/bcel/verifier/exc/StaticCodeInstructionOperandConstraintException.java,1
+src/{ => main}/java/org/apache/bcel/generic/InstructionComparator.java,1
+src/{ => main}/java/org/apache/bcel/verifier/exc/VerifierConstraintViolatedException.java,1
+src/{ => main}/java/org/apache/bcel/generic/InstructionConstants.java,1
+src/{ => main}/java/org/apache/bcel/verifier/PassVerifier.java,1
+src/{ => main}/java/org/apache/bcel/generic/InstructionFactory.java,1
+src/{ => main}/java/org/apache/bcel/verifier/statics/LocalVariablesInfo.java,1
+src/{ => main}/java/org/apache/bcel/generic/InstructionHandle.java,1
+src/{ => main}/java/org/apache/bcel/verifier/statics/Pass2Verifier.java,1
+src/{ => main}/java/org/apache/bcel/generic/InstructionList.java,1
+src/{ => main}/java/org/apache/bcel/verifier/structurals/ExceptionHandler.java,1
+src/{ => main}/java/org/apache/bcel/generic/InstructionListObserver.java,1
+src/{ => main}/java/org/apache/bcel/verifier/structurals/GenericArray.java,1
+src/{ => main}/java/org/apache/bcel/generic/InstructionTargeter.java,1
+src/{ => main}/java/org/apache/bcel/verifier/structurals/OperandStack.java,1
+src/{ => main}/java/org/apache/bcel/generic/InvokeInstruction.java,1
+src/{ => main}/java/org/apache/bcel/verifier/structurals/Subroutines.java,1
+src/{ => main}/java/org/apache/bcel/generic/INVOKEINTERFACE.java,1
+src/{ => main}/java/org/apache/bcel/verifier/Verifier.java,1
+src/{ => main}/java/org/apache/bcel/generic/INVOKESPECIAL.java,1
+src/{ => main}/java/org/apache/bcel/verifier/VerifierFactoryObserver.java,1
+src/{ => main}/java/org/apache/bcel/generic/INVOKESTATIC.java,1
+src/{ => main}/java/org/apache/bcel/generic/DALOAD.java,1
+src/{ => main}/java/org/apache/bcel/generic/INVOKEVIRTUAL.java,1
+src/{ => main}/java/org/apache/bcel/generic/GETSTATIC.java,1
+src/{ => main}/java/org/apache/bcel/generic/IOR.java,1
+src/{ => main}/java/org/apache/bcel/generic/FADD.java,1
+src/{ => main}/java/org/apache/bcel/generic/IREM.java,1
+src/{ => main}/java/org/apache/bcel/generic/FASTORE.java,1
+src/{ => main}/java/org/apache/bcel/generic/IRETURN.java,1
+src/{ => main}/java/org/apache/bcel/generic/DCMPL.java,1
+src/{ => main}/java/org/apache/bcel/generic/ISHL.java,1
+src/{ => main}/java/org/apache/bcel/generic/DUP2_X1.java,1
+src/{ => main}/java/org/apache/bcel/generic/ISHR.java,1
+src/{ => main}/java/org/apache/bcel/generic/FNEG.java,1
+src/{ => main}/java/org/apache/bcel/generic/ISTORE.java,1
+src/{ => main}/java/org/apache/bcel/generic/SASTORE.java,1
+src/{ => main}/java/org/apache/bcel/generic/ISUB.java,1
+src/{ => main}/java/org/apache/bcel/generic/SIPUSH.java,1
+src/{ => main}/java/org/apache/bcel/generic/IUSHR.java,1
+src/{ => main}/java/org/apache/bcel/generic/StackInstruction.java,1
+src/{ => main}/java/org/apache/bcel/generic/IXOR.java,1
+src/{ => main}/java/org/apache/bcel/generic/StoreInstruction.java,1
+src/{ => main}/java/org/apache/bcel/generic/JSR.java,1
+src/{ => main}/java/org/apache/bcel/generic/SWITCH.java,1
+src/{ => main}/java/org/apache/bcel/generic/JSR_W.java,1
+src/{ => main}/java/org/apache/bcel/generic/TargetLostException.java,1
+src/{ => main}/java/org/apache/bcel/generic/JsrInstruction.java,1
+src/{ => main}/java/org/apache/bcel/generic/TypedInstruction.java,1
+src/{ => main}/java/org/apache/bcel/generic/L2D.java,1
+src/{ => main}/java/org/apache/bcel/generic/VariableLengthInstruction.java,1
+src/{ => main}/java/org/apache/bcel/generic/L2F.java,1
+src/{ => main}/java/org/apache/bcel/package.html,1
+src/{ => main}/java/org/apache/bcel/generic/L2I.java,1
+src/{ => main}/java/org/apache/bcel/util/AttributeHTML.java,1
+src/{ => main}/java/org/apache/bcel/generic/LADD.java,1
+src/{ => main}/java/org/apache/bcel/util/BCELFactory.java,1
+src/{ => main}/java/org/apache/bcel/generic/LALOAD.java,1
+src/{ => main}/java/org/apache/bcel/util/ByteSequence.java,1
+src/{ => main}/java/org/apache/bcel/generic/LAND.java,1
+src/{ => main}/java/org/apache/bcel/util/ClassLoader.java,1
+src/{ => main}/java/org/apache/bcel/generic/LASTORE.java,1
+src/{ => main}/java/org/apache/bcel/util/ClassPath.java,1
+src/{ => main}/java/org/apache/bcel/generic/LCMP.java,1
+src/{ => main}/java/org/apache/bcel/util/ClassSet.java,1
+src/{ => main}/java/org/apache/bcel/generic/LCONST.java,1
+src/{ => main}/java/org/apache/bcel/util/ClassVector.java,1
+src/{ => main}/java/org/apache/bcel/generic/LDC.java,1
+src/{ => main}/java/org/apache/bcel/util/ConstantHTML.java,1
+src/{ => main}/java/org/apache/bcel/generic/LDC_W.java,1
+src/{ => main}/java/org/apache/bcel/util/JavaWrapper.java,1
+src/{ => main}/java/org/apache/bcel/generic/LDC2_W.java,1
+src/{ => main}/java/org/apache/bcel/util/package.html,1
+src/{ => main}/java/org/apache/bcel/generic/LDIV.java,1
+src/{ => main}/java/org/apache/bcel/util/SyntheticRepository.java,1
+src/{ => main}/java/org/apache/bcel/generic/LineNumberGen.java,1
+src/{ => main}/java/org/apache/bcel/verifier/exc/ClassConstraintException.java,1
+src/{ => main}/java/org/apache/bcel/generic/LLOAD.java,1
+src/{ => main}/java/org/apache/bcel/verifier/exc/InvalidMethodException.java,1
+src/{ => main}/java/org/apache/bcel/generic/LMUL.java,1
+src/{ => main}/java/org/apache/bcel/verifier/exc/LoadingException.java,1
+src/{ => main}/java/org/apache/bcel/generic/LNEG.java,1
+src/{ => main}/java/org/apache/bcel/verifier/exc/package.html,1
+src/{ => main}/java/org/apache/bcel/generic/LoadClass.java,1
+src/{ => main}/java/org/apache/bcel/verifier/exc/StaticCodeInstructionConstraintException.java,1
+src/{ => main}/java/org/apache/bcel/generic/LoadInstruction.java,1
+src/{ => main}/java/org/apache/bcel/verifier/exc/StructuralCodeConstraintException.java,1
+src/{ => main}/java/org/apache/bcel/generic/LocalVariableGen.java,1
+src/{ => main}/java/org/apache/bcel/verifier/exc/VerificationException.java,1
+src/{ => main}/java/org/apache/bcel/generic/LocalVariableInstruction.java,1
+src/{ => main}/java/org/apache/bcel/verifier/GraphicalVerifier.java,1
+src/{ => main}/java/org/apache/bcel/generic/LOOKUPSWITCH.java,1
+src/{ => main}/java/org/apache/bcel/verifier/package.html,1
+src/{ => main}/java/org/apache/bcel/generic/LOR.java,1
+src/{ => main}/java/org/apache/bcel/verifier/statics/DOUBLE_Upper.java,1
+src/{ => main}/java/org/apache/bcel/generic/LREM.java,1
+src/{ => main}/java/org/apache/bcel/verifier/statics/LocalVariableInfo.java,1
+src/{ => main}/java/org/apache/bcel/generic/LRETURN.java,1
+src/{ => main}/java/org/apache/bcel/verifier/statics/LONG_Upper.java,1
+src/{ => main}/java/org/apache/bcel/generic/LSHL.java,1
+src/{ => main}/java/org/apache/bcel/verifier/statics/Pass1Verifier.java,1
+src/{ => main}/java/org/apache/bcel/generic/LSHR.java,1
+src/{ => main}/java/org/apache/bcel/verifier/statics/Pass3aVerifier.java,1
+src/{ => main}/java/org/apache/bcel/generic/LSTORE.java,1
+src/{ => main}/java/org/apache/bcel/verifier/structurals/ControlFlowGraph.java,1
+src/{ => main}/java/org/apache/bcel/generic/LSUB.java,1
+src/{ => main}/java/org/apache/bcel/verifier/structurals/ExceptionHandlers.java,1
+src/{ => main}/java/org/apache/bcel/generic/LUSHR.java,1
+src/{ => main}/java/org/apache/bcel/verifier/structurals/Frame.java,1
+src/{ => main}/java/org/apache/bcel/generic/LXOR.java,1
+src/{ => main}/java/org/apache/bcel/verifier/structurals/InstConstraintVisitor.java,1
+src/{ => main}/java/org/apache/bcel/generic/MethodGen.java,1
+src/{ => main}/java/org/apache/bcel/verifier/structurals/LocalVariables.java,1
+src/{ => main}/java/org/apache/bcel/generic/MethodObserver.java,1
+src/{ => main}/java/org/apache/bcel/verifier/structurals/package.html,1
+src/{ => main}/java/org/apache/bcel/generic/MONITORENTER.java,1
+src/{ => main}/java/org/apache/bcel/verifier/structurals/Subroutine.java,1
+src/{ => main}/java/org/apache/bcel/generic/MONITOREXIT.java,1
+src/{ => main}/java/org/apache/bcel/verifier/structurals/UninitializedObjectType.java,1
+src/{ => main}/java/org/apache/bcel/generic/MULTIANEWARRAY.java,1
+src/{ => main}/java/org/apache/bcel/verifier/VerificationResult.java,1
+src/{ => main}/java/org/apache/bcel/generic/NamedAndTyped.java,1
+src/{ => main}/java/org/apache/bcel/verifier/VerifierAppFrame.java,1
+src/{ => main}/java/org/apache/bcel/generic/NEW.java,1
+src/{ => main}/java/org/apache/bcel/verifier/VerifierFactoryListModel.java,1
+src/{ => main}/java/org/apache/bcel/generic/NEWARRAY.java,1
+src/{ => main}/java/org/apache/bcel/verifier/VerifyDialog.java,1
+src/{ => main}/java/org/apache/bcel/generic/DRETURN.java,1
+src/{ => main}/java/org/apache/bcel/generic/FSUB.java,1
+src/{ => main}/java/org/apache/bcel/generic/DSTORE.java,1
+src/{ => main}/java/org/apache/bcel/generic/FieldInstruction.java,1
+src/{ => main}/java/org/apache/bcel/generic/F2L.java,1
+src/conf/checkstyle-suppressions.xml,1
+src/{ => main}/java/org/apache/bcel/generic/DREM.java,1
+src/{ => main}/java/org/apache/bcel/generic/DSUB.java,1
+src/{ => main}/java/org/apache/bcel/generic/POP2.java,1
+src/{ => main}/java/org/apache/bcel/generic/DUP_X1.java,1
+src/{ => main}/java/org/apache/bcel/generic/PopInstruction.java,1
+src/{ => main}/java/org/apache/bcel/generic/DASTORE.java,1
+src/{ => main}/java/org/apache/bcel/generic/PUSH.java,1
+src/{ => main}/java/org/apache/bcel/generic/FALOAD.java,1
+src/{ => main}/java/org/apache/bcel/generic/PushInstruction.java,1
+src/{ => main}/java/org/apache/bcel/generic/DMUL.java,1
+src/{ => main}/java/org/apache/bcel/generic/PUTFIELD.java,1
+src/{ => main}/java/org/apache/bcel/generic/DUP_X2.java,1
+src/{ => main}/java/org/apache/bcel/generic/FieldGen.java,1
+src/{ => main}/java/org/apache/bcel/generic/FCMPG.java,1
+src/{ => main}/java/org/apache/bcel/generic/ExceptionThrower.java,1
+src/{ => main}/java/org/apache/bcel/generic/FCMPL.java,1
+src/{ => main}/java/org/apache/bcel/generic/FieldGenOrMethodGen.java,1
+src/{ => main}/java/org/apache/bcel/generic/DCONST.java,1
+src/{ => main}/java/org/apache/bcel/generic/FMUL.java,1
+src/{ => main}/java/org/apache/bcel/generic/GOTO.java,1
+src/{ => main}/java/org/apache/bcel/generic/DUP2_X2.java,1
+src/{ => main}/java/org/apache/bcel/generic/EmptyVisitor.java,1
+src/{ => main}/java/org/apache/bcel/generic/DDIV.java,1
+src/{ => main}/java/org/apache/bcel/generic/GETFIELD.java,1
+src/{ => main}/java/org/apache/bcel/generic/FRETURN.java,1
+src/{ => main}/java/org/apache/bcel/generic/DNEG.java,1
+src/{ => main}/java/org/apache/bcel/generic/FDIV.java,1
+src/{ => main}/java/org/apache/bcel/generic/FREM.java,1
+src/{ => main}/java/org/apache/bcel/generic/ReturnInstruction.java,1
+src/{ => main}/java/org/apache/bcel/generic/F2I.java,1
+src/{ => main}/java/org/apache/bcel/generic/FCONST.java,1
+src/{ => main}/java/org/apache/bcel/generic/RET.java,1
+src/{ => main}/java/org/apache/bcel/generic/F2D.java,1
+src/{ => main}/java/org/apache/bcel/generic/RETURN.java,1
+src/{ => main}/java/org/apache/bcel/generic/ReturnaddressType.java,1
+src/{ => main}/java/org/apache/bcel/generic/PUTSTATIC.java,1
+src/{ => main}/java/org/apache/bcel/generic/ReferenceType.java,1
+src/{ => main}/java/org/apache/bcel/generic/package.html,1
+src/{ => main}/java/org/apache/bcel/generic/DLOAD.java,1
+src/{ => main}/java/org/apache/bcel/generic/POP.java,1
+src/{ => main}/java/org/apache/bcel/generic/NOP.java,1
+src/{ => main}/java/org/apache/bcel/generic/DADD.java,1
+src/{ => main}/java/org/apache/bcel/generic/ObjectType.java,1
+src/{ => main}/java/org/apache/bcel/classfile/DescendingVisitor.java,1
+{examples => src/examples}/TransitiveHull.java,1
+src/{ => main}/java/org/apache/bcel/classfile/Visitor.java,1
+{xdocs => src/site/xdoc}/images/classfile.gif,1
+src/{ => main}/java/org/apache/bcel/classfile/ConstantClass.java,1
+docs/generic.mdl,1
+src/{ => main}/java/org/apache/bcel/classfile/package.html,1
+{xdocs => src/site/xdoc}/images/classgen.gif,1
+src/{ => main}/java/org/apache/bcel/generic/BALOAD.java,1
+docs/manual.bib,1
+src/{ => main}/java/org/apache/bcel/classfile/Annotations.java,1
+{xdocs => src/site/xdoc}/images/classloader.gif,1
+src/{ => main}/java/org/apache/bcel/classfile/ConstantMethodref.java,1
+checkstyle.xml => src/conf/checkstyle.xml,1
+src/{ => main}/java/org/apache/bcel/classfile/InnerClasses.java,1
+{xdocs => src/site/xdoc}/images/constantpool.gif,1
+src/{ => main}/java/org/apache/bcel/classfile/Signature.java,1
+{xdocs => src/site/xdoc}/images/il.gif,1
+src/{ => main}/java/org/apache/bcel/generic/ANEWARRAY.java,1
+checkstyle_suppressions.xml => checkstyle-suppressions.xml,1
+docs/eps/jvm.fig,1
+checkstyle-suppressions.xml => src/conf/checkstyle-suppressions.xml,1
+{xdocs => src/site/xdoc}/stylesheets/project.xml,1
+{xdocs => src/site/xdoc}/images/instructions.gif,1
+src/{ => main}/java/org/apache/bcel/classfile/ClassParser.java,1
+docs/verifier/classfile.eps,1
+src/{ => main}/java/org/apache/bcel/classfile/ConstantFloat.java,1
+clirr-ignored-diffs.xml => src/conf/clirr-ignored-diffs.xml,1
+src/{ => main}/java/org/apache/bcel/classfile/ConstantString.java,1
+CODE_OF_CONDUCT.md,1
+src/{ => main}/java/org/apache/bcel/classfile/ExceptionTable.java,1
+{examples => src/examples}/helloify.java,1
+src/{ => main}/java/org/apache/bcel/classfile/LocalVariable.java,1
+{examples => src/examples}/HelloWorldBuilder.java,1
+src/{ => main}/java/org/apache/bcel/classfile/RuntimeInvisibleAnnotations.java,1
+{examples => src/examples}/listclass.java,1
+src/{ => main}/java/org/apache/bcel/classfile/StackMapType.java,1
+docs/verifier/GUI1.eps,1
+src/{ => main}/java/org/apache/bcel/generic/AASTORE.java,1
+docs/verifier/GUI2.eps,1
+src/{ => main}/java/org/apache/bcel/generic/ARRAYLENGTH.java,1
+{examples => src/examples}/maxstack.java,1
+src/{ => main}/java/org/apache/bcel/generic/BranchHandle.java,1
+{examples => src/examples}/id.java,1
+README.JustIce,1
+{examples => src/examples}/JasminVisitor.java,1
+{xdocs => src/site/xdoc}/faq.xml,1
+docs/verifier/V_API_SD.eps,1
+src/{ => main}/java/org/apache/bcel/classfile/AnnotationDefault.java,1
+docs/verifier/VennDiag.eps,1
+src/{ => main}/java/org/apache/bcel/classfile/AttributeReader.java,1
+{xdocs => src/site/xdoc}/images/javaclass.gif,1
+src/{ => main}/java/org/apache/bcel/classfile/CodeException.java,1
+docs/classfile.mdl,1
+src/{ => main}/java/org/apache/bcel/classfile/ConstantDouble.java,1
+{examples => src/examples}/Mini/ASCII_CharStream.java,1
+src/{ => main}/java/org/apache/bcel/classfile/ConstantInterfaceMethodref.java,1
+{examples => src/examples}/Mini/ASTExpr.java,1
+src/{ => main}/java/org/apache/bcel/classfile/ConstantObject.java,1
+{examples => src/examples}/Mini/ASTFactor.java,1
+src/{ => main}/java/org/apache/bcel/classfile/ConstantValue.java,1
+{examples => src/examples}/Mini/ASTFunAppl.java,1
+src/{ => main}/java/org/apache/bcel/classfile/ElementValuePair.java,1
+{examples => src/examples}/Mini/ASTFunDecl.java,1
+src/{ => main}/java/org/apache/bcel/classfile/FieldOrMethod.java,1
+{examples => src/examples}/Mini/ASTIdent.java,1
+src/{ => main}/java/org/apache/bcel/classfile/LineNumber.java,1
+{examples => src/examples}/Mini/ASTIfExpr.java,1
+src/{ => main}/java/org/apache/bcel/classfile/Method.java,1
+{examples => src/examples}/Mini/ASTInteger.java,1
+src/{ => main}/java/org/apache/bcel/classfile/ParameterAnnotations.java,1
+{examples => src/examples}/Mini/ASTLetExpr.java,1
+src/{ => main}/java/org/apache/bcel/classfile/RuntimeVisibleAnnotations.java,1
+{examples => src/examples}/Mini/ASTProgram.java,1
+src/{ => main}/java/org/apache/bcel/classfile/StackMap.java,1
+{examples => src/examples}/Mini/ASTTerm.java,1
+src/{ => main}/java/org/apache/bcel/classfile/Unknown.java,1
+{examples => src/examples}/Mini/EnvEntry.java,1
+src/{ => main}/java/org/apache/bcel/ExceptionConstants.java,1
+{examples => src/examples}/Mini/Environment.java,1
+src/{ => main}/java/org/apache/bcel/generic/AllocationInstruction.java,1
+{examples => src/examples}/Mini/fac.mini,1
+src/{ => main}/java/org/apache/bcel/generic/ArithmeticInstruction.java,1
+{examples => src/examples}/Mini/fib.mini,1
+src/{ => main}/java/org/apache/bcel/generic/ASTORE.java,1
+{examples => src/examples}/Mini/Function.java,1
+src/{ => main}/java/org/apache/bcel/generic/BASTORE.java,1
+{examples => src/examples}/Mini/JJTMiniParserState.java,1
+src/{ => main}/java/org/apache/bcel/generic/BREAKPOINT.java,1
+{xdocs => src/site/xdoc}/images/jvm.gif,1
+{xdocs => src/site/xdoc}/projects.xml,1
+{examples => src/examples}/Mini/max.mini,1
+README.JustIce => README.txt,1
+examples/Mini/fac.mini,1
+{xdocs => src/site/xdoc}/contributors.xml,1
+examples/Mini/fib.mini,1
+docs/eps/javaclass.fig,1
+{examples => src/examples}/Mini/Mini.bnf,1
+src/{ => main}/java/org/apache/bcel/classfile/AccessFlags.java,1
+{xdocs => src/site/xdoc}/images/logo.gif,1
+src/{ => main}/java/org/apache/bcel/classfile/AnnotationEntry.java,1
+examples/Mini/max.mini,1
+src/{ => main}/java/org/apache/bcel/classfile/Attribute.java,1
+examples/Mini/Mini.bnf,1
+src/{ => main}/java/org/apache/bcel/classfile/ClassFormatException.java,1
+examples/Mini/Mini.jj,1
+src/{ => main}/java/org/apache/bcel/classfile/Code.java,1
+examples/Mini/Mini.jjt,1
+src/{ => main}/java/org/apache/bcel/classfile/Constant.java,1
+{examples => src/examples}/Mini/Mini.jj,1
+src/{ => main}/java/org/apache/bcel/classfile/ConstantCP.java,1
+examples/Mini/MiniParser$JJCalls,1
+src/{ => main}/java/org/apache/bcel/classfile/ConstantFieldref.java,1
+{examples => src/examples}/Mini/Mini.jjt,1
+src/{ => main}/java/org/apache/bcel/classfile/ConstantInteger.java,1
+docs/eps/classfile.fig,1
+src/{ => main}/java/org/apache/bcel/classfile/ConstantLong.java,1
+{examples => src/examples}/Mini/MiniC.java,1
+src/{ => main}/java/org/apache/bcel/classfile/ConstantNameAndType.java,1
+{xdocs => src/site/xdoc}/index.xml,1
+src/{ => main}/java/org/apache/bcel/classfile/ConstantPool.java,1
+docs/eps/classgen.fig,1
+src/{ => main}/java/org/apache/bcel/classfile/ConstantUtf8.java,1
+{examples => src/examples}/Mini/MiniParser$JJCalls,1
+src/{ => main}/java/org/apache/bcel/classfile/Deprecated.java,1
+{xdocs => src/site/xdoc}/license.xml,1
+src/{ => main}/java/org/apache/bcel/classfile/ElementValue.java,1
+{examples => src/examples}/Mini/MiniParser.java,1
+src/{ => main}/java/org/apache/bcel/classfile/EmptyVisitor.java,1
+docs/eps/classloader.fig,1
+src/{ => main}/java/org/apache/bcel/classfile/Field.java,1
+src/{ => main}/java/org/apache/bcel/generic/CASTORE.java,1
+src/{ => main}/java/org/apache/bcel/classfile/InnerClass.java,1
+src/{ => main}/java/org/apache/bcel/generic/CHECKCAST.java,1
+src/{ => main}/java/org/apache/bcel/classfile/JavaClass.java,1
+src/{ => main}/java/org/apache/bcel/generic/ClassGenException.java,1
+src/{ => main}/java/org/apache/bcel/classfile/LineNumberTable.java,1
+src/{ => main}/java/org/apache/bcel/generic/CodeExceptionGen.java,1
+src/{ => main}/java/org/apache/bcel/classfile/LocalVariableTable.java,1
+src/{ => main}/java/org/apache/bcel/generic/ConstantPoolGen.java,1
+src/{ => main}/java/org/apache/bcel/classfile/Node.java,1
+src/{ => main}/java/org/apache/bcel/generic/ConversionInstruction.java,1
+src/{ => main}/java/org/apache/bcel/classfile/ParameterAnnotationEntry.java,1
+src/{ => main}/java/org/apache/bcel/generic/D2F.java,1
+src/{ => main}/java/org/apache/bcel/classfile/PMGClass.java,1
+src/{ => main}/java/org/apache/bcel/generic/D2L.java,1
+src/{ => main}/java/org/apache/bcel/classfile/RuntimeInvisibleParameterAnnotations.java,1
+findbugs-exclude-filter.xml => src/conf/findbugs-exclude-filter.xml,1
+src/{ => main}/java/org/apache/bcel/classfile/RuntimeVisibleParameterAnnotations.java,1
+{examples => src/examples}/Mini/Token.java,1
+src/{ => main}/java/org/apache/bcel/classfile/SourceFile.java,1
+jakarta-bcel-doap.xml => doap_bcel.rdf,1
+src/{ => main}/java/org/apache/bcel/classfile/StackMapEntry.java,1
+{xdocs => src/site/xdoc}/manual.xml,1
+src/{ => main}/java/org/apache/bcel/classfile/Synthetic.java,1
+docs/eps/constantpool.fig,1
+src/{ => main}/java/org/apache/bcel/classfile/Utility.java,1
+LICENSE,1
+src/{ => main}/java/org/apache/bcel/Constants.java,1
+LICENSE => LICENSE.txt,1
+src/{ => main}/java/org/apache/bcel/generic/AALOAD.java,1
+docs/eps/diagram.fig,1
+src/{ => main}/java/org/apache/bcel/generic/ACONST_NULL.java,1
+{examples => src/examples}/Mini/TokenMgrError.java,1
+src/{ => main}/java/org/apache/bcel/generic/ALOAD.java,1
+{examples => src/examples}/Mini/Variable.java,1
+src/{ => main}/java/org/apache/bcel/generic/ARETURN.java,1
+{xdocs => src/site/xdoc}/navigation.xml,1
+src/{ => main}/java/org/apache/bcel/generic/ArrayInstruction.java,1
+docs/eps/il.fig,1
+src/{ => main}/java/org/apache/bcel/generic/ArrayType.java,1
+{xdocs => src/site/xdoc}/news.xml,1
+src/{ => main}/java/org/apache/bcel/generic/ATHROW.java,1
+{examples => src/examples}/Package.java,1
+src/{ => main}/java/org/apache/bcel/generic/BasicType.java,1
+docs/eps/instructions.fig,1
+src/{ => main}/java/org/apache/bcel/generic/BIPUSH.java,1
+pmd.xml => src/conf/pmd.xml,1
+src/{ => main}/java/org/apache/bcel/generic/BranchInstruction.java,1
+{examples => src/examples}/patchclass.java,1
+src/{ => main}/java/org/apache/bcel/generic/CALOAD.java,1
+{examples => src/examples}/Peephole.java,1
+{examples => src/examples}/ProxyCreator.java,1
+src/{ => main}/java/org/apache/bcel/generic/ClassGen.java,1
+{examples => src/examples}/Mini/MiniParserConstants.java,1
+src/{ => main}/java/org/apache/bcel/generic/ClassObserver.java,1
+{examples => src/examples}/Mini/MiniParserTokenManager.java,1
+src/{ => main}/java/org/apache/bcel/generic/CompoundInstruction.java,1
+{examples => src/examples}/Mini/MiniParserTreeConstants.java,1
+src/{ => main}/java/org/apache/bcel/generic/ConstantPushInstruction.java,1
+{examples => src/examples}/Mini/Node.java,1
+src/{ => main}/java/org/apache/bcel/generic/CPInstruction.java,1
+{examples => src/examples}/Mini/ParseException.java,1
+src/{ => main}/java/org/apache/bcel/generic/D2I.java,1
+{examples => src/examples}/Mini/README,1
+{xdocs => src/site/xdoc}/images/bcel-logo.gif,1
+{examples => src/examples}/Mini/SimpleNode.java,1
+总计,13164
